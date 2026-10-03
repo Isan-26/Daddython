@@ -1,0 +1,87 @@
+{
+  "baseline_file": "candidate_v5.csv",
+  "baseline_competition_rmse": 3.31,
+  "split_seed": 2028,
+  "holdout_rows": 1600,
+  "complete_holdout_rows": 1491,
+  "mask_trials": 12,
+  "note": "Reserved from third-round selection. These labelled rows may have been used in earlier rounds. Weighted scores approximate test building/event frequencies using input values only.",
+  "config": {
+    "config": {
+      "depth": 5,
+      "iterations": 1100,
+      "augment": 3,
+      "linear_mode": "notebook",
+      "distill": true,
+      "tree_blend": 0.2,
+      "imputer_weight": 1.5,
+      "conditional_depth": 4,
+      "conditional_iterations": 750
+    },
+    "weights_by_missing_count": [
+      0.0,
+      0.37075022341843034,
+      0.6135764029710683
+    ],
+    "baseline_file": "candidate_v5.csv",
+    "baseline_competition_rmse": 3.31,
+    "baseline_sha256": "f03e96a9d1eb873c9332412e0fc1d00d2898232f8bb35a31e36bb49c327b5f49",
+    "selection": "Three-fold development CV on the 6,400-row seed-2028 partition; conditional imputers plus constrained blends by missing-input count, minimizing feature-only building/event weighted masked error. Complete rows retain V5. Settings locked before third-round holdout.",
+    "development_baseline": {
+      "raw_rmse": 3.0806834039793203,
+      "test_masks_rmse": 3.2231771776491933,
+      "weighted_rmse": 3.423203933416995
+    },
+    "development_candidate": {
+      "raw_rmse": 3.078278417136418,
+      "test_masks_rmse": 3.243043091431828,
+      "weighted_rmse": 3.406475945781008
+    },
+    "calibration": "No bias correction; it did not improve development weighted RMSE."
+  },
+  "baseline": {
+    "ordinary": {
+      "rmse": 3.0721123337906535,
+      "complete": 3.0474797874719246,
+      "missing": 3.3911424304421436
+    },
+    "test_masks_rmse": 3.231642577884673,
+    "weighted_rmse": 3.427982196450151,
+    "masked_by_missing_count": {
+      "0": 3.051977256386067,
+      "1": 3.5430044481985776,
+      "2": 4.340781833984608,
+      "3": 5.17442869908301
+    }
+  },
+  "candidate": {
+    "ordinary": {
+      "rmse": 3.0759255789272695,
+      "complete": 3.0474797874719246,
+      "missing": 3.4415082066595515
+    },
+    "test_masks_rmse": 3.241659122979798,
+    "weighted_rmse": 3.3960832974215664,
+    "masked_by_missing_count": {
+      "0": 3.051977256386067,
+      "1": 3.560433293909876,
+      "2": 4.413440005015532,
+      "3": 5.277125597378497
+    }
+  },
+  "bootstrap_gain_intervals": {
+    "positive_favors_v6": true,
+    "masked_95pct": [
+      -0.017761465832643153,
+      -0.0017009479979897674
+    ],
+    "weighted_95pct": [
+      0.0055052134143297685,
+      0.06474585091137322
+    ]
+  },
+  "data_sha256": {
+    "train.csv": "85d3a3a23bf0f9b540c07362b89407a9764ca4e1666db9adac545d39c7653938",
+    "test.csv": "cd2193344ee9bff92e71341bf3db126da8d6ddefac73c0a675a777103985cabb"
+  }
+}

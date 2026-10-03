@@ -1,0 +1,16 @@
+{
+  "output_file": "/Users/ethanis/Downloads/Track 1 Dataset/candidate_v6.csv",
+  "rows": 3000,
+  "complete_rows_unchanged": 2453,
+  "incomplete_rows": 547,
+  "prediction_change_rms": 0.26295652931960917,
+  "prediction_change_max_abs": 4.092918593237833,
+  "observed_inputs_preserved": true,
+  "repeated_index_check_passed": true,
+  "baseline_sha256": "f03e96a9d1eb873c9332412e0fc1d00d2898232f8bb35a31e36bb49c327b5f49",
+  "output_sha256": "7318a32accdaf734ab102d0f955b098a10686c598bdd9498f149dc424417af3e",
+  "data_sha256": {
+    "train.csv": "85d3a3a23bf0f9b540c07362b89407a9764ca4e1666db9adac545d39c7653938",
+    "test.csv": "cd2193344ee9bff92e71341bf3db126da8d6ddefac73c0a675a777103985cabb"
+  }
+}

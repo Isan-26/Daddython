@@ -1,6 +1,6 @@
 # Second-round improvement: candidate v5
 
-Your confirmed competition best is **`candidate_v4.csv`, RMSE 3.37**. The next file to try is **`candidate_v5.csv`**. Its competition score is not yet known; a score of 3.20 has not been verified.
+You reported a competition RMSE of **3.31 for `candidate_v5.csv`**, improving on V4's 3.37. V5 remains the confirmed best. The original second-round development and validation results are recorded below; a score of 3.20 has not been verified.
 
 ## What changed
 

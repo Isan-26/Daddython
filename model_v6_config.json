@@ -1,0 +1,33 @@
+{
+  "config": {
+    "depth": 5,
+    "iterations": 1100,
+    "augment": 3,
+    "linear_mode": "notebook",
+    "distill": true,
+    "tree_blend": 0.2,
+    "imputer_weight": 1.5,
+    "conditional_depth": 4,
+    "conditional_iterations": 750
+  },
+  "weights_by_missing_count": [
+    0.0,
+    0.37075022341843034,
+    0.6135764029710683
+  ],
+  "baseline_file": "candidate_v5.csv",
+  "baseline_competition_rmse": 3.31,
+  "baseline_sha256": "f03e96a9d1eb873c9332412e0fc1d00d2898232f8bb35a31e36bb49c327b5f49",
+  "selection": "Three-fold development CV on the 6,400-row seed-2028 partition; conditional imputers plus constrained blends by missing-input count, minimizing feature-only building/event weighted masked error. Complete rows retain V5. Settings locked before third-round holdout.",
+  "development_baseline": {
+    "raw_rmse": 3.0806834039793203,
+    "test_masks_rmse": 3.2231771776491933,
+    "weighted_rmse": 3.423203933416995
+  },
+  "development_candidate": {
+    "raw_rmse": 3.078278417136418,
+    "test_masks_rmse": 3.243043091431828,
+    "weighted_rmse": 3.406475945781008
+  },
+  "calibration": "No bias correction; it did not improve development weighted RMSE."
+}
