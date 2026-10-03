@@ -1,0 +1,287 @@
+[
+  {
+    "config": {
+      "harmonics": 1,
+      "alpha": 10,
+      "extra": "none",
+      "tree_weight": 0
+    },
+    "raw": {
+      "rmse": 3.1909020899070986,
+      "complete": 3.085973592836707,
+      "missing": 4.540466179625769
+    },
+    "test_masks": {
+      "rmse": 3.2403318863561545,
+      "complete": 3.042943032403209,
+      "missing": 4.057875221627404
+    },
+    "seconds": 0.1
+  },
+  {
+    "config": {
+      "harmonics": 2,
+      "alpha": 10,
+      "extra": "none",
+      "tree_weight": 0
+    },
+    "raw": {
+      "rmse": 3.16207584036235,
+      "complete": 3.0702915517488263,
+      "missing": 4.365883309855609
+    },
+    "test_masks": {
+      "rmse": 3.217216592577874,
+      "complete": 3.0197483913534455,
+      "missing": 4.034289039426316
+    },
+    "seconds": 0.1
+  },
+  {
+    "config": {
+      "harmonics": 3,
+      "alpha": 10,
+      "extra": "none",
+      "tree_weight": 0
+    },
+    "raw": {
+      "rmse": 3.162326691087786,
+      "complete": 3.072460661992106,
+      "missing": 4.344717676049796
+    },
+    "test_masks": {
+      "rmse": 3.216266210063106,
+      "complete": 3.027545504218313,
+      "missing": 4.001639984578675
+    },
+    "seconds": 0.1
+  },
+  {
+    "config": {
+      "harmonics": 1,
+      "alpha": 1,
+      "extra": "none",
+      "tree_weight": 0
+    },
+    "raw": {
+      "rmse": 3.159179516542966,
+      "complete": 3.048369799428064,
+      "missing": 4.569191918794111
+    },
+    "test_masks": {
+      "rmse": 3.2120004477214072,
+      "complete": 3.009441730271054,
+      "missing": 4.047167652947219
+    },
+    "seconds": 0.1
+  },
+  {
+    "config": {
+      "harmonics": 1,
+      "alpha": 100,
+      "extra": "none",
+      "tree_weight": 0
+    },
+    "raw": {
+      "rmse": 3.6796376831230933,
+      "complete": 3.5971203593790273,
+      "missing": 4.8012771023718575
+    },
+    "test_masks": {
+      "rmse": 3.736302803820262,
+      "complete": 3.571360916062605,
+      "missing": 4.445066998187206
+    },
+    "seconds": 0.1
+  },
+  {
+    "config": {
+      "harmonics": 2,
+      "alpha": 100,
+      "extra": "none",
+      "tree_weight": 0
+    },
+    "raw": {
+      "rmse": 3.66803831070132,
+      "complete": 3.5961654489599724,
+      "missing": 4.661078646243592
+    },
+    "test_masks": {
+      "rmse": 3.7234671809199633,
+      "complete": 3.56167337247203,
+      "missing": 4.419803784996153
+    },
+    "seconds": 0.1
+  },
+  {
+    "config": {
+      "harmonics": 2,
+      "alpha": 10,
+      "extra": "weekend",
+      "tree_weight": 0
+    },
+    "raw": {
+      "rmse": 3.161979075086627,
+      "complete": 3.069266509757551,
+      "missing": 4.376108975404549
+    },
+    "test_masks": {
+      "rmse": 3.2062987247714925,
+      "complete": 3.0220589143331833,
+      "missing": 3.9750235105155896
+    },
+    "seconds": 0.1
+  },
+  {
+    "config": {
+      "harmonics": 2,
+      "alpha": 10,
+      "extra": "interactions",
+      "tree_weight": 0
+    },
+    "raw": {
+      "rmse": 3.169266587232403,
+      "complete": 3.0840892019322674,
+      "missing": 4.2991232671400414
+    },
+    "test_masks": {
+      "rmse": 3.220329958389037,
+      "complete": 3.040491406393404,
+      "missing": 3.9733103536389502
+    },
+    "seconds": 0.1
+  },
+  {
+    "config": {
+      "harmonics": 2,
+      "alpha": 100,
+      "extra": "interactions",
+      "tree_weight": 0
+    },
+    "raw": {
+      "rmse": 3.6400679341155224,
+      "complete": 3.5751037353828004,
+      "missing": 4.547057339059326
+    },
+    "test_masks": {
+      "rmse": 3.7101425386672178,
+      "complete": 3.543732609211353,
+      "missing": 4.424066958920295
+    },
+    "seconds": 0.1
+  },
+  {
+    "config": {
+      "harmonics": 2,
+      "alpha": 10,
+      "extra": "hinges",
+      "tree_weight": 0
+    },
+    "raw": {
+      "rmse": 3.179869401835565,
+      "complete": 3.0953208123688305,
+      "missing": 4.303107333183461
+    },
+    "test_masks": {
+      "rmse": 3.2337837151588666,
+      "complete": 3.0505533386990797,
+      "missing": 3.9996145434940398
+    },
+    "seconds": 0.1
+  },
+  {
+    "config": {
+      "harmonics": 2,
+      "alpha": 100,
+      "extra": "hinges",
+      "tree_weight": 0
+    },
+    "raw": {
+      "rmse": 3.643027711207234,
+      "complete": 3.582903841188042,
+      "missing": 4.4893506093773174
+    },
+    "test_masks": {
+      "rmse": 3.7174124357086993,
+      "complete": 3.5528569035266746,
+      "missing": 4.424322712543508
+    },
+    "seconds": 0.1
+  },
+  {
+    "config": {
+      "harmonics": 1,
+      "alpha": 10,
+      "extra": "none",
+      "tree_weight": 0.5
+    },
+    "raw": {
+      "rmse": 3.167490836314778,
+      "complete": 3.0715325231894783,
+      "missing": 4.417855511325079
+    },
+    "test_masks": {
+      "rmse": 3.2029987966198186,
+      "complete": 3.030143206729414,
+      "missing": 3.9296984263340082
+    },
+    "seconds": 3.0
+  },
+  {
+    "config": {
+      "harmonics": 2,
+      "alpha": 10,
+      "extra": "none",
+      "tree_weight": 0.5
+    },
+    "raw": {
+      "rmse": 3.144232151576372,
+      "complete": 3.058021920094465,
+      "missing": 4.284499271639177
+    },
+    "test_masks": {
+      "rmse": 3.188666109618072,
+      "complete": 3.0100819587030463,
+      "missing": 3.9361339251594414
+    },
+    "seconds": 3.1
+  },
+  {
+    "config": {
+      "harmonics": 2,
+      "alpha": 100,
+      "extra": "hinges",
+      "tree_weight": 0.5
+    },
+    "raw": {
+      "rmse": 3.362534281559405,
+      "complete": 3.30512298277837,
+      "missing": 4.167850367134773
+    },
+    "test_masks": {
+      "rmse": 3.4183670014622023,
+      "complete": 3.26157177211003,
+      "missing": 4.0894977888461845
+    },
+    "seconds": 3.2
+  },
+  {
+    "config": {
+      "harmonics": 2,
+      "alpha": 10,
+      "extra": "none",
+      "tree_weight": 1.0
+    },
+    "raw": {
+      "rmse": 3.157655120978634,
+      "complete": 3.074400044458781,
+      "missing": 4.265028231718826
+    },
+    "test_masks": {
+      "rmse": 3.2017883636652025,
+      "complete": 3.0295761313066847,
+      "missing": 3.926068326730204
+    },
+    "seconds": 3.1
+  }
+]

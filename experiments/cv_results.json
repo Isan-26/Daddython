@@ -1,0 +1,1086 @@
+{
+  "summary": [
+    {
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.65
+      },
+      "raw_rmse": 3.0884966518089416,
+      "test_masks_rmse": 3.2481316565878524,
+      "fold_stress_rmse": [
+        3.2776,
+        3.2711,
+        3.2639,
+        3.1789
+      ]
+    },
+    {
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "weekend",
+        "tree_weight": 0.35
+      },
+      "raw_rmse": 3.0882125590589196,
+      "test_masks_rmse": 3.2523989477868165,
+      "fold_stress_rmse": [
+        3.3025,
+        3.2689,
+        3.2625,
+        3.1743
+      ]
+    },
+    {
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "interactions",
+        "tree_weight": 0.35
+      },
+      "raw_rmse": 3.09475738323221,
+      "test_masks_rmse": 3.257558576284398,
+      "fold_stress_rmse": [
+        3.3165,
+        3.275,
+        3.2618,
+        3.1753
+      ]
+    },
+    {
+      "config": {
+        "harmonics": 3,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.35
+      },
+      "raw_rmse": 3.081513368770172,
+      "test_masks_rmse": 3.257777540392682,
+      "fold_stress_rmse": [
+        3.295,
+        3.2802,
+        3.2683,
+        3.1865
+      ]
+    },
+    {
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "hinges",
+        "tree_weight": 0.35
+      },
+      "raw_rmse": 3.1063947631690088,
+      "test_masks_rmse": 3.262985869506121,
+      "fold_stress_rmse": [
+        3.3226,
+        3.2848,
+        3.2679,
+        3.1749
+      ]
+    },
+    {
+      "config": {
+        "harmonics": 3,
+        "alpha": 1,
+        "extra": "weekend",
+        "tree_weight": 0
+      },
+      "raw_rmse": 3.088011773307225,
+      "test_masks_rmse": 3.2651102914282384,
+      "fold_stress_rmse": [
+        3.3224,
+        3.2757,
+        3.2747,
+        3.1863
+      ]
+    },
+    {
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.35
+      },
+      "raw_rmse": 3.087593770054898,
+      "test_masks_rmse": 3.265235958886,
+      "fold_stress_rmse": [
+        3.2994,
+        3.2879,
+        3.2783,
+        3.1943
+      ]
+    },
+    {
+      "config": {
+        "harmonics": 2,
+        "alpha": 3,
+        "extra": "none",
+        "tree_weight": 0.35
+      },
+      "raw_rmse": 3.0949581965985016,
+      "test_masks_rmse": 3.2707238602098956,
+      "fold_stress_rmse": [
+        3.3059,
+        3.2969,
+        3.2852,
+        3.1937
+      ]
+    },
+    {
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "weekend",
+        "tree_weight": 0
+      },
+      "raw_rmse": 3.0965559333893133,
+      "test_masks_rmse": 3.2756503051479164,
+      "fold_stress_rmse": [
+        3.3323,
+        3.2882,
+        3.2842,
+        3.1964
+      ]
+    },
+    {
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "interactions",
+        "tree_weight": 0
+      },
+      "raw_rmse": 3.1020847228929185,
+      "test_masks_rmse": 3.2787807831227482,
+      "fold_stress_rmse": [
+        3.3426,
+        3.2934,
+        3.281,
+        3.1964
+      ]
+    },
+    {
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "hinges",
+        "tree_weight": 0
+      },
+      "raw_rmse": 3.1104660609346166,
+      "test_masks_rmse": 3.2809917733085565,
+      "fold_stress_rmse": [
+        3.348,
+        3.301,
+        3.2818,
+        3.1911
+      ]
+    },
+    {
+      "config": {
+        "harmonics": 1,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.35
+      },
+      "raw_rmse": 3.1009065669066045,
+      "test_masks_rmse": 3.28751141481173,
+      "fold_stress_rmse": [
+        3.3171,
+        3.3278,
+        3.2839,
+        3.2201
+      ]
+    },
+    {
+      "config": {
+        "harmonics": 3,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0
+      },
+      "raw_rmse": 3.0881533618982004,
+      "test_masks_rmse": 3.2902553709797417,
+      "fold_stress_rmse": [
+        3.3339,
+        3.3117,
+        3.2973,
+        3.2169
+      ]
+    },
+    {
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0
+      },
+      "raw_rmse": 3.096532021364285,
+      "test_masks_rmse": 3.300787599427234,
+      "fold_stress_rmse": [
+        3.3406,
+        3.3245,
+        3.31,
+        3.2268
+      ]
+    },
+    {
+      "config": {
+        "harmonics": 2,
+        "alpha": 0.1,
+        "extra": "none",
+        "tree_weight": 0
+      },
+      "raw_rmse": 3.0959043684900305,
+      "test_masks_rmse": 3.301040551072042,
+      "fold_stress_rmse": [
+        3.3406,
+        3.3239,
+        3.3095,
+        3.229
+      ]
+    },
+    {
+      "config": {
+        "harmonics": 2,
+        "alpha": 3,
+        "extra": "none",
+        "tree_weight": 0
+      },
+      "raw_rmse": 3.1038055331912457,
+      "test_masks_rmse": 3.305726204413953,
+      "fold_stress_rmse": [
+        3.3458,
+        3.3315,
+        3.3176,
+        3.2267
+      ]
+    },
+    {
+      "config": {
+        "harmonics": 1,
+        "alpha": 0.1,
+        "extra": "none",
+        "tree_weight": 0
+      },
+      "raw_rmse": 3.113359680994517,
+      "test_masks_rmse": 3.339340575851922,
+      "fold_stress_rmse": [
+        3.3739,
+        3.3776,
+        3.329,
+        3.2758
+      ]
+    },
+    {
+      "config": {
+        "harmonics": 1,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0
+      },
+      "raw_rmse": 3.113958359668148,
+      "test_masks_rmse": 3.3394168164178795,
+      "fold_stress_rmse": [
+        3.3742,
+        3.3789,
+        3.33,
+        3.2735
+      ]
+    }
+  ],
+  "folds": [
+    {
+      "fold": 0,
+      "config": {
+        "harmonics": 1,
+        "alpha": 0.1,
+        "extra": "none",
+        "tree_weight": 0
+      },
+      "raw_mse": 9.744615706707311,
+      "stress_mse": 11.383357412527301
+    },
+    {
+      "fold": 0,
+      "config": {
+        "harmonics": 1,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0
+      },
+      "raw_mse": 9.742885005711946,
+      "stress_mse": 11.385213792170713
+    },
+    {
+      "fold": 0,
+      "config": {
+        "harmonics": 2,
+        "alpha": 0.1,
+        "extra": "none",
+        "tree_weight": 0
+      },
+      "raw_mse": 9.698857718797644,
+      "stress_mse": 11.159286564969696
+    },
+    {
+      "fold": 0,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0
+      },
+      "raw_mse": 9.699958913185485,
+      "stress_mse": 11.15990787344279
+    },
+    {
+      "fold": 0,
+      "config": {
+        "harmonics": 2,
+        "alpha": 3,
+        "extra": "none",
+        "tree_weight": 0
+      },
+      "raw_mse": 9.737974980196736,
+      "stress_mse": 11.194486666176077
+    },
+    {
+      "fold": 0,
+      "config": {
+        "harmonics": 3,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0
+      },
+      "raw_mse": 9.697555657437801,
+      "stress_mse": 11.11495337881472
+    },
+    {
+      "fold": 0,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "weekend",
+        "tree_weight": 0
+      },
+      "raw_mse": 9.754165940907534,
+      "stress_mse": 11.104554707430133
+    },
+    {
+      "fold": 0,
+      "config": {
+        "harmonics": 3,
+        "alpha": 1,
+        "extra": "weekend",
+        "tree_weight": 0
+      },
+      "raw_mse": 9.735255643830946,
+      "stress_mse": 11.038090181251333
+    },
+    {
+      "fold": 0,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "interactions",
+        "tree_weight": 0
+      },
+      "raw_mse": 9.900917190573638,
+      "stress_mse": 11.172653399446439
+    },
+    {
+      "fold": 0,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "hinges",
+        "tree_weight": 0
+      },
+      "raw_mse": 9.952641998246564,
+      "stress_mse": 11.208975636349935
+    },
+    {
+      "fold": 0,
+      "config": {
+        "harmonics": 1,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.35
+      },
+      "raw_mse": 9.694742925116142,
+      "stress_mse": 11.00289562624192
+    },
+    {
+      "fold": 0,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.35
+      },
+      "raw_mse": 9.654377732973566,
+      "stress_mse": 10.885737743488255
+    },
+    {
+      "fold": 0,
+      "config": {
+        "harmonics": 2,
+        "alpha": 3,
+        "extra": "none",
+        "tree_weight": 0.35
+      },
+      "raw_mse": 9.708861918298382,
+      "stress_mse": 10.928704033313373
+    },
+    {
+      "fold": 0,
+      "config": {
+        "harmonics": 3,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.35
+      },
+      "raw_mse": 9.63646005918707,
+      "stress_mse": 10.85702384344645
+    },
+    {
+      "fold": 0,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "weekend",
+        "tree_weight": 0.35
+      },
+      "raw_mse": 9.703526792978332,
+      "stress_mse": 10.906371597409864
+    },
+    {
+      "fold": 0,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "interactions",
+        "tree_weight": 0.35
+      },
+      "raw_mse": 9.865378625347955,
+      "stress_mse": 10.999340528004868
+    },
+    {
+      "fold": 0,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "hinges",
+        "tree_weight": 0.35
+      },
+      "raw_mse": 9.922148835529688,
+      "stress_mse": 11.039394932240578
+    },
+    {
+      "fold": 0,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.65
+      },
+      "raw_mse": 9.665889865832396,
+      "stress_mse": 10.742406039121326
+    },
+    {
+      "fold": 1,
+      "config": {
+        "harmonics": 1,
+        "alpha": 0.1,
+        "extra": "none",
+        "tree_weight": 0
+      },
+      "raw_mse": 9.977337457649533,
+      "stress_mse": 11.408450325765351
+    },
+    {
+      "fold": 1,
+      "config": {
+        "harmonics": 1,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0
+      },
+      "raw_mse": 9.99184811243539,
+      "stress_mse": 11.416816474752013
+    },
+    {
+      "fold": 1,
+      "config": {
+        "harmonics": 2,
+        "alpha": 0.1,
+        "extra": "none",
+        "tree_weight": 0
+      },
+      "raw_mse": 9.781363729140958,
+      "stress_mse": 11.048552040208582
+    },
+    {
+      "fold": 1,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0
+      },
+      "raw_mse": 9.791724766687459,
+      "stress_mse": 11.052048556329341
+    },
+    {
+      "fold": 1,
+      "config": {
+        "harmonics": 2,
+        "alpha": 3,
+        "extra": "none",
+        "tree_weight": 0
+      },
+      "raw_mse": 9.853099033345979,
+      "stress_mse": 11.09905473516543
+    },
+    {
+      "fold": 1,
+      "config": {
+        "harmonics": 3,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0
+      },
+      "raw_mse": 9.645925968743004,
+      "stress_mse": 10.96756420149768
+    },
+    {
+      "fold": 1,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "weekend",
+        "tree_weight": 0
+      },
+      "raw_mse": 9.778005528868755,
+      "stress_mse": 10.812211607878556
+    },
+    {
+      "fold": 1,
+      "config": {
+        "harmonics": 3,
+        "alpha": 1,
+        "extra": "weekend",
+        "tree_weight": 0
+      },
+      "raw_mse": 9.630148093339116,
+      "stress_mse": 10.730097157463215
+    },
+    {
+      "fold": 1,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "interactions",
+        "tree_weight": 0
+      },
+      "raw_mse": 9.789714959081715,
+      "stress_mse": 10.846515686817774
+    },
+    {
+      "fold": 1,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "hinges",
+        "tree_weight": 0
+      },
+      "raw_mse": 9.886146591271684,
+      "stress_mse": 10.89683593138143
+    },
+    {
+      "fold": 1,
+      "config": {
+        "harmonics": 1,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.35
+      },
+      "raw_mse": 9.923178324081986,
+      "stress_mse": 11.07448713331009
+    },
+    {
+      "fold": 1,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.35
+      },
+      "raw_mse": 9.750278070996153,
+      "stress_mse": 10.810098088879212
+    },
+    {
+      "fold": 1,
+      "config": {
+        "harmonics": 2,
+        "alpha": 3,
+        "extra": "none",
+        "tree_weight": 0.35
+      },
+      "raw_mse": 9.816186411147578,
+      "stress_mse": 10.869386524566654
+    },
+    {
+      "fold": 1,
+      "config": {
+        "harmonics": 3,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.35
+      },
+      "raw_mse": 9.645190127974013,
+      "stress_mse": 10.759594391938478
+    },
+    {
+      "fold": 1,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "weekend",
+        "tree_weight": 0.35
+      },
+      "raw_mse": 9.759989126545834,
+      "stress_mse": 10.685875004021288
+    },
+    {
+      "fold": 1,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "interactions",
+        "tree_weight": 0.35
+      },
+      "raw_mse": 9.77490574395375,
+      "stress_mse": 10.725600754421391
+    },
+    {
+      "fold": 1,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "hinges",
+        "tree_weight": 0.35
+      },
+      "raw_mse": 9.875877859648472,
+      "stress_mse": 10.789670136055268
+    },
+    {
+      "fold": 1,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.65
+      },
+      "raw_mse": 9.767891349124426,
+      "stress_mse": 10.700289806655773
+    },
+    {
+      "fold": 2,
+      "config": {
+        "harmonics": 1,
+        "alpha": 0.1,
+        "extra": "none",
+        "tree_weight": 0
+      },
+      "raw_mse": 9.933714630139548,
+      "stress_mse": 11.082050699842718
+    },
+    {
+      "fold": 2,
+      "config": {
+        "harmonics": 1,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0
+      },
+      "raw_mse": 9.947261387351972,
+      "stress_mse": 11.089125872832861
+    },
+    {
+      "fold": 2,
+      "config": {
+        "harmonics": 2,
+        "alpha": 0.1,
+        "extra": "none",
+        "tree_weight": 0
+      },
+      "raw_mse": 9.760555728642908,
+      "stress_mse": 10.953051490779103
+    },
+    {
+      "fold": 2,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0
+      },
+      "raw_mse": 9.773410796019554,
+      "stress_mse": 10.956301742509623
+    },
+    {
+      "fold": 2,
+      "config": {
+        "harmonics": 2,
+        "alpha": 3,
+        "extra": "none",
+        "tree_weight": 0
+      },
+      "raw_mse": 9.84520906310762,
+      "stress_mse": 11.006227891304134
+    },
+    {
+      "fold": 2,
+      "config": {
+        "harmonics": 3,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0
+      },
+      "raw_mse": 9.7627462264003,
+      "stress_mse": 10.87242578679666
+    },
+    {
+      "fold": 2,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "weekend",
+        "tree_weight": 0
+      },
+      "raw_mse": 9.70221022446921,
+      "stress_mse": 10.785710552176921
+    },
+    {
+      "fold": 2,
+      "config": {
+        "harmonics": 3,
+        "alpha": 1,
+        "extra": "weekend",
+        "tree_weight": 0
+      },
+      "raw_mse": 9.69529743716151,
+      "stress_mse": 10.723387969420633
+    },
+    {
+      "fold": 2,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "interactions",
+        "tree_weight": 0
+      },
+      "raw_mse": 9.662787770327304,
+      "stress_mse": 10.765277318073553
+    },
+    {
+      "fold": 2,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "hinges",
+        "tree_weight": 0
+      },
+      "raw_mse": 9.735042314676082,
+      "stress_mse": 10.770382307062002
+    },
+    {
+      "fold": 2,
+      "config": {
+        "harmonics": 1,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.35
+      },
+      "raw_mse": 9.81221543694071,
+      "stress_mse": 10.784240584316846
+    },
+    {
+      "fold": 2,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.35
+      },
+      "raw_mse": 9.661522646945638,
+      "stress_mse": 10.747524292727299
+    },
+    {
+      "fold": 2,
+      "config": {
+        "harmonics": 2,
+        "alpha": 3,
+        "extra": "none",
+        "tree_weight": 0.35
+      },
+      "raw_mse": 9.728800860014065,
+      "stress_mse": 10.792661367245826
+    },
+    {
+      "fold": 2,
+      "config": {
+        "harmonics": 3,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.35
+      },
+      "raw_mse": 9.669305792256441,
+      "stress_mse": 10.682081274098056
+    },
+    {
+      "fold": 2,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "weekend",
+        "tree_weight": 0.35
+      },
+      "raw_mse": 9.609815273544704,
+      "stress_mse": 10.643721712127405
+    },
+    {
+      "fold": 2,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "interactions",
+        "tree_weight": 0.35
+      },
+      "raw_mse": 9.579755394795916,
+      "stress_mse": 10.639466213178679
+    },
+    {
+      "fold": 2,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "hinges",
+        "tree_weight": 0.35
+      },
+      "raw_mse": 9.698310648466059,
+      "stress_mse": 10.679069852238872
+    },
+    {
+      "fold": 2,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.65
+      },
+      "raw_mse": 9.618026156129304,
+      "stress_mse": 10.65308559539191
+    },
+    {
+      "fold": 3,
+      "config": {
+        "harmonics": 1,
+        "alpha": 0.1,
+        "extra": "none",
+        "tree_weight": 0
+      },
+      "raw_mse": 9.116366218472733,
+      "stress_mse": 10.73092348798881
+    },
+    {
+      "fold": 3,
+      "config": {
+        "harmonics": 1,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0
+      },
+      "raw_mse": 9.10495215748926,
+      "stress_mse": 10.715662555342508
+    },
+    {
+      "fold": 3,
+      "config": {
+        "harmonics": 2,
+        "alpha": 0.1,
+        "extra": "none",
+        "tree_weight": 0
+      },
+      "raw_mse": 9.097718258761104,
+      "stress_mse": 10.42658478333067
+    },
+    {
+      "fold": 3,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0
+      },
+      "raw_mse": 9.088947761445036,
+      "stress_mse": 10.412536933848664
+    },
+    {
+      "fold": 3,
+      "config": {
+        "harmonics": 2,
+        "alpha": 3,
+        "extra": "none",
+        "tree_weight": 0
+      },
+      "raw_mse": 9.098152074824041,
+      "stress_mse": 10.411533661550674
+    },
+    {
+      "fold": 3,
+      "config": {
+        "harmonics": 3,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0
+      },
+      "raw_mse": 9.040536893831534,
+      "stress_mse": 10.34817825793509
+    },
+    {
+      "fold": 3,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "weekend",
+        "tree_weight": 0
+      },
+      "raw_mse": 9.120252900188744,
+      "stress_mse": 10.217062818976942
+    },
+    {
+      "fold": 3,
+      "config": {
+        "harmonics": 3,
+        "alpha": 1,
+        "extra": "weekend",
+        "tree_weight": 0
+      },
+      "raw_mse": 9.082565674004563,
+      "stress_mse": 10.152205552627203
+    },
+    {
+      "fold": 3,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "interactions",
+        "tree_weight": 0
+      },
+      "raw_mse": 9.138298592039881,
+      "stress_mse": 10.217167290762319
+    },
+    {
+      "fold": 3,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "hinges",
+        "tree_weight": 0
+      },
+      "raw_mse": 9.126165560710108,
+      "stress_mse": 10.18343419128034
+    },
+    {
+      "fold": 3,
+      "config": {
+        "harmonics": 1,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.35
+      },
+      "raw_mse": 9.03234946059918,
+      "stress_mse": 10.369301866200841
+    },
+    {
+      "fold": 3,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.35
+      },
+      "raw_mse": 9.066762704611923,
+      "stress_mse": 10.203703343713945
+    },
+    {
+      "fold": 3,
+      "config": {
+        "harmonics": 2,
+        "alpha": 3,
+        "extra": "none",
+        "tree_weight": 0.35
+      },
+      "raw_mse": 9.061215765308978,
+      "stress_mse": 10.199786353859436
+    },
+    {
+      "fold": 3,
+      "config": {
+        "harmonics": 3,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.35
+      },
+      "raw_mse": 9.031942588219652,
+      "stress_mse": 10.153758501264988
+    },
+    {
+      "fold": 3,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "weekend",
+        "tree_weight": 0.35
+      },
+      "raw_mse": 9.074896046648092,
+      "stress_mse": 10.076427348700609
+    },
+    {
+      "fold": 3,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "interactions",
+        "tree_weight": 0.35
+      },
+      "raw_mse": 9.090053280183486,
+      "stress_mse": 10.0823440160912
+    },
+    {
+      "fold": 3,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "hinges",
+        "tree_weight": 0.35
+      },
+      "raw_mse": 9.102416354931156,
+      "stress_mse": 10.080172217851754
+    },
+    {
+      "fold": 3,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.65
+      },
+      "raw_mse": 9.10343890185405,
+      "stress_mse": 10.105655592943577
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "complete_weight": 0.75,
+  "missing_weight": 0.75,
+  "raw_rmse": 3.068700251053138,
+  "test_masks_rmse": 3.2088876191426596,
+  "shift_rmse": 3.3955405681792574,
+  "pattern_config": {
+    "harmonics": 3,
+    "alpha": 1,
+    "extra": "none",
+    "tree_weight": 0.65,
+    "weight_power": 0.5,
+    "trees": 250,
+    "min_leaf": 25,
+    "tree_leaves": 15,
+    "categorical": true
+  }
+}

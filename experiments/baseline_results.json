@@ -1,0 +1,13 @@
+{
+  "description": "Current v3 architecture, preprocessing fitted only on training fold.",
+  "raw": {
+    "rmse": 3.1229200690004815,
+    "complete": 3.0652080961807013,
+    "missing": 3.925596299435581
+  },
+  "test_masks": {
+    "rmse": 3.197582600382085,
+    "complete": 3.0190533038232323,
+    "missing": 3.945100851693528
+  }
+}

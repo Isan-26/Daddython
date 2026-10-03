@@ -1,0 +1,638 @@
+{
+  "summary": [
+    {
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.65,
+        "weight_power": 0.5,
+        "trees": 250,
+        "min_leaf": 25,
+        "tree_leaves": 15,
+        "categorical": true
+      },
+      "test_masks_rmse": 3.2437471338389807,
+      "shift_rmse": 3.416844169441104
+    },
+    {
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 1,
+        "weight_power": 0,
+        "trees": 250,
+        "min_leaf": 25,
+        "tree_leaves": 15,
+        "categorical": true
+      },
+      "test_masks_rmse": 3.2460649021133783,
+      "shift_rmse": 3.4442728148854167
+    },
+    {
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.65,
+        "weight_power": 0,
+        "trees": 250,
+        "min_leaf": 25,
+        "tree_leaves": 15,
+        "categorical": true
+      },
+      "test_masks_rmse": 3.241772348472289,
+      "shift_rmse": 3.451235612163425
+    },
+    {
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.65,
+        "weight_power": 0,
+        "trees": 180,
+        "min_leaf": 15,
+        "tree_leaves": 10,
+        "categorical": true
+      },
+      "test_masks_rmse": 3.2438989638149267,
+      "shift_rmse": 3.4524438925695176
+    },
+    {
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.65,
+        "weight_power": 0,
+        "trees": 350,
+        "min_leaf": 20,
+        "tree_leaves": 20,
+        "categorical": true
+      },
+      "test_masks_rmse": 3.2462099587100175,
+      "shift_rmse": 3.4552955848264015
+    },
+    {
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.85,
+        "weight_power": 0,
+        "trees": 350,
+        "min_leaf": 20,
+        "tree_leaves": 20,
+        "categorical": true
+      },
+      "test_masks_rmse": 3.254709616621567,
+      "shift_rmse": 3.456647528741276
+    },
+    {
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.65,
+        "weight_power": 0,
+        "trees": 350,
+        "min_leaf": 45,
+        "tree_leaves": 20,
+        "categorical": true
+      },
+      "test_masks_rmse": 3.2497749165026635,
+      "shift_rmse": 3.4591101860851166
+    },
+    {
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.65,
+        "weight_power": 0,
+        "trees": 180,
+        "min_leaf": 35,
+        "tree_leaves": 12,
+        "categorical": false
+      },
+      "test_masks_rmse": 3.2481316565878524,
+      "shift_rmse": 3.4702490467808826
+    }
+  ],
+  "folds": [
+    {
+      "fold": 0,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.65,
+        "weight_power": 0,
+        "trees": 180,
+        "min_leaf": 35,
+        "tree_leaves": 12,
+        "categorical": false
+      },
+      "stress_mse": 10.742406039121326,
+      "shift_mse": 12.887843183663426
+    },
+    {
+      "fold": 0,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.65,
+        "weight_power": 0,
+        "trees": 250,
+        "min_leaf": 25,
+        "tree_leaves": 15,
+        "categorical": true
+      },
+      "stress_mse": 10.677118031065433,
+      "shift_mse": 12.689597066131011
+    },
+    {
+      "fold": 0,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 1,
+        "weight_power": 0,
+        "trees": 250,
+        "min_leaf": 25,
+        "tree_leaves": 15,
+        "categorical": true
+      },
+      "stress_mse": 10.656644153772142,
+      "shift_mse": 12.70566840175126
+    },
+    {
+      "fold": 0,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.65,
+        "weight_power": 0.5,
+        "trees": 250,
+        "min_leaf": 25,
+        "tree_leaves": 15,
+        "categorical": true
+      },
+      "stress_mse": 10.610505535925647,
+      "shift_mse": 12.133774893834643
+    },
+    {
+      "fold": 0,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.65,
+        "weight_power": 0,
+        "trees": 350,
+        "min_leaf": 45,
+        "tree_leaves": 20,
+        "categorical": true
+      },
+      "stress_mse": 10.7449869950852,
+      "shift_mse": 12.756759888797106
+    },
+    {
+      "fold": 0,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.65,
+        "weight_power": 0,
+        "trees": 350,
+        "min_leaf": 20,
+        "tree_leaves": 20,
+        "categorical": true
+      },
+      "stress_mse": 10.676551182176455,
+      "shift_mse": 12.652184342969536
+    },
+    {
+      "fold": 0,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.85,
+        "weight_power": 0,
+        "trees": 350,
+        "min_leaf": 20,
+        "tree_leaves": 20,
+        "categorical": true
+      },
+      "stress_mse": 10.690183951028086,
+      "shift_mse": 12.68255434340468
+    },
+    {
+      "fold": 0,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.65,
+        "weight_power": 0,
+        "trees": 180,
+        "min_leaf": 15,
+        "tree_leaves": 10,
+        "categorical": true
+      },
+      "stress_mse": 10.6896221582949,
+      "shift_mse": 12.673973287943694
+    },
+    {
+      "fold": 1,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.65,
+        "weight_power": 0,
+        "trees": 180,
+        "min_leaf": 35,
+        "tree_leaves": 12,
+        "categorical": false
+      },
+      "stress_mse": 10.700289806655773,
+      "shift_mse": 12.745644631331727
+    },
+    {
+      "fold": 1,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.65,
+        "weight_power": 0,
+        "trees": 250,
+        "min_leaf": 25,
+        "tree_leaves": 15,
+        "categorical": true
+      },
+      "stress_mse": 10.68978703743724,
+      "shift_mse": 12.531269138886266
+    },
+    {
+      "fold": 1,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 1,
+        "weight_power": 0,
+        "trees": 250,
+        "min_leaf": 25,
+        "tree_leaves": 15,
+        "categorical": true
+      },
+      "stress_mse": 10.74078429984759,
+      "shift_mse": 12.287685605130855
+    },
+    {
+      "fold": 1,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.65,
+        "weight_power": 0.5,
+        "trees": 250,
+        "min_leaf": 25,
+        "tree_leaves": 15,
+        "categorical": true
+      },
+      "stress_mse": 10.71046592345611,
+      "shift_mse": 12.260778648555778
+    },
+    {
+      "fold": 1,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.65,
+        "weight_power": 0,
+        "trees": 350,
+        "min_leaf": 45,
+        "tree_leaves": 20,
+        "categorical": true
+      },
+      "stress_mse": 10.746056889944489,
+      "shift_mse": 12.61994088284872
+    },
+    {
+      "fold": 1,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.65,
+        "weight_power": 0,
+        "trees": 350,
+        "min_leaf": 20,
+        "tree_leaves": 20,
+        "categorical": true
+      },
+      "stress_mse": 10.709703219839987,
+      "shift_mse": 12.637207383513255
+    },
+    {
+      "fold": 1,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.85,
+        "weight_power": 0,
+        "trees": 350,
+        "min_leaf": 20,
+        "tree_leaves": 20,
+        "categorical": true
+      },
+      "stress_mse": 10.781871434977889,
+      "shift_mse": 12.556483930955968
+    },
+    {
+      "fold": 1,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.65,
+        "weight_power": 0,
+        "trees": 180,
+        "min_leaf": 15,
+        "tree_leaves": 10,
+        "categorical": true
+      },
+      "stress_mse": 10.70637141421128,
+      "shift_mse": 12.628278830912155
+    },
+    {
+      "fold": 2,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.65,
+        "weight_power": 0,
+        "trees": 180,
+        "min_leaf": 35,
+        "tree_leaves": 12,
+        "categorical": false
+      },
+      "stress_mse": 10.65308559539191,
+      "shift_mse": 11.39922275933942
+    },
+    {
+      "fold": 2,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.65,
+        "weight_power": 0,
+        "trees": 250,
+        "min_leaf": 25,
+        "tree_leaves": 15,
+        "categorical": true
+      },
+      "stress_mse": 10.569093724198627,
+      "shift_mse": 11.2547760382341
+    },
+    {
+      "fold": 2,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 1,
+        "weight_power": 0,
+        "trees": 250,
+        "min_leaf": 25,
+        "tree_leaves": 15,
+        "categorical": true
+      },
+      "stress_mse": 10.603010507735785,
+      "shift_mse": 11.252261758889892
+    },
+    {
+      "fold": 2,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.65,
+        "weight_power": 0.5,
+        "trees": 250,
+        "min_leaf": 25,
+        "tree_leaves": 15,
+        "categorical": true
+      },
+      "stress_mse": 10.636639646247545,
+      "shift_mse": 11.23264540448681
+    },
+    {
+      "fold": 2,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.65,
+        "weight_power": 0,
+        "trees": 350,
+        "min_leaf": 45,
+        "tree_leaves": 20,
+        "categorical": true
+      },
+      "stress_mse": 10.569188908104133,
+      "shift_mse": 11.290812469101576
+    },
+    {
+      "fold": 2,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.65,
+        "weight_power": 0,
+        "trees": 350,
+        "min_leaf": 20,
+        "tree_leaves": 20,
+        "categorical": true
+      },
+      "stress_mse": 10.576270415583421,
+      "shift_mse": 11.310353652639654
+    },
+    {
+      "fold": 2,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.85,
+        "weight_power": 0,
+        "trees": 350,
+        "min_leaf": 20,
+        "tree_leaves": 20,
+        "categorical": true
+      },
+      "stress_mse": 10.628679991617892,
+      "shift_mse": 11.356286255112096
+    },
+    {
+      "fold": 2,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.65,
+        "weight_power": 0,
+        "trees": 180,
+        "min_leaf": 15,
+        "tree_leaves": 10,
+        "categorical": true
+      },
+      "stress_mse": 10.591634238739028,
+      "shift_mse": 11.261746940740908
+    },
+    {
+      "fold": 3,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.65,
+        "weight_power": 0,
+        "trees": 180,
+        "min_leaf": 35,
+        "tree_leaves": 12,
+        "categorical": false
+      },
+      "stress_mse": 10.105655592943577,
+      "shift_mse": 11.137803212399929
+    },
+    {
+      "fold": 3,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.65,
+        "weight_power": 0,
+        "trees": 250,
+        "min_leaf": 25,
+        "tree_leaves": 15,
+        "categorical": true
+      },
+      "stress_mse": 10.100353044576853,
+      "shift_mse": 11.168466759408824
+    },
+    {
+      "fold": 3,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 1,
+        "weight_power": 0,
+        "trees": 250,
+        "min_leaf": 25,
+        "tree_leaves": 15,
+        "categorical": true
+      },
+      "stress_mse": 10.147310433573837,
+      "shift_mse": 11.206445127662837
+    },
+    {
+      "fold": 3,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.65,
+        "weight_power": 0.5,
+        "trees": 250,
+        "min_leaf": 25,
+        "tree_leaves": 15,
+        "categorical": true
+      },
+      "stress_mse": 10.1299707675251,
+      "shift_mse": 11.072097366097445
+    },
+    {
+      "fold": 3,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.65,
+        "weight_power": 0,
+        "trees": 350,
+        "min_leaf": 45,
+        "tree_leaves": 20,
+        "categorical": true
+      },
+      "stress_mse": 10.18391523858575,
+      "shift_mse": 11.194259877163837
+    },
+    {
+      "fold": 3,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.65,
+        "weight_power": 0,
+        "trees": 350,
+        "min_leaf": 20,
+        "tree_leaves": 20,
+        "categorical": true
+      },
+      "stress_mse": 10.188991566512506,
+      "shift_mse": 11.156524934960855
+    },
+    {
+      "fold": 3,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.85,
+        "weight_power": 0,
+        "trees": 350,
+        "min_leaf": 20,
+        "tree_leaves": 20,
+        "categorical": true
+      },
+      "stress_mse": 10.271803376491762,
+      "shift_mse": 11.198324022339929
+    },
+    {
+      "fold": 3,
+      "config": {
+        "harmonics": 2,
+        "alpha": 1,
+        "extra": "none",
+        "tree_weight": 0.65,
+        "weight_power": 0,
+        "trees": 180,
+        "min_leaf": 15,
+        "tree_leaves": 10,
+        "categorical": true
+      },
+      "stress_mse": 10.10389413851301,
+      "shift_mse": 11.113476265765497
+    }
+  ]
+}
