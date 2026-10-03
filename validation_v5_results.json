@@ -1,0 +1,61 @@
+{
+  "baseline_file": "candidate_v4.csv",
+  "baseline_competition_rmse": 3.37,
+  "split_seed": 2027,
+  "holdout_rows": 1600,
+  "complete_holdout_rows": 1510,
+  "mask_trials": 12,
+  "note": "Held out from second-round selection. These labelled rows may have been used in the first round.",
+  "config": {
+    "config": {
+      "depth": 5,
+      "iterations": 1100,
+      "augment": 3,
+      "linear_mode": "notebook",
+      "distill": true,
+      "tree_blend": 0.2,
+      "imputer_weight": 1.5
+    },
+    "blend": 0.5,
+    "raw_rmse": 3.088365385069417,
+    "test_masks_rmse": 3.228468616180622,
+    "weighted_rmse": 3.4035999102045174,
+    "baseline_file": "candidate_v4.csv",
+    "baseline_competition_rmse": 3.37,
+    "baseline_sha256": "f9e0d8362ed054b447c5631e7631d4f847cd5328688a2781c148fb6c9e5c9dd4",
+    "selection": "Three-fold development CV on the 6,400-row seed-2027 development partition; minimize feature-only building/event weighted masked RMSE."
+  },
+  "baseline": {
+    "ordinary": {
+      "rmse": 3.057800500750165,
+      "complete": 3.0258552856009575,
+      "missing": 3.5511687084486994
+    },
+    "test_masks_rmse": 3.1937439660440354,
+    "weighted_rmse": 3.3751146837282247
+  },
+  "candidate": {
+    "ordinary": {
+      "rmse": 3.0546484019149576,
+      "complete": 3.021052585924382,
+      "missing": 3.5714878587451633
+    },
+    "test_masks_rmse": 3.1995079143180485,
+    "weighted_rmse": 3.3174289916161928
+  },
+  "bootstrap_gain_intervals": {
+    "positive_favors_v5": true,
+    "masked_95pct": [
+      -0.024803920924421574,
+      0.013062237959471054
+    ],
+    "weighted_95pct": [
+      0.010203623553673036,
+      0.12549780361479557
+    ]
+  },
+  "data_sha256": {
+    "train.csv": "85d3a3a23bf0f9b540c07362b89407a9764ca4e1666db9adac545d39c7653938",
+    "test.csv": "cd2193344ee9bff92e71341bf3db126da8d6ddefac73c0a675a777103985cabb"
+  }
+}
