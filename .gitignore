@@ -1,0 +1,4 @@
+# over GitHub's 100 MB file limit; rebuild with platform_submission_v2/2_build_model_pkl.ipynb (INCLUDE_TEN_SEED_FINAL = True for the 10-seed version)
+platform_submission/model.pkl
+__pycache__/
+.ipynb_checkpoints/

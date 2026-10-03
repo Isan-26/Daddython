@@ -1,0 +1,6 @@
+torch==2.14.1
+pytabkit==1.7.3
+pandas
+scikit-learn
+jupyter_client
+ipykernel
