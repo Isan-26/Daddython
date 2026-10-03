@@ -1,0 +1,954 @@
+{
+  "summary": [
+    {
+      "seeds": [
+        1223
+      ],
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5
+      },
+      "blend": 0.25,
+      "raw_rmse": 3.0824794817926096,
+      "test_masks_rmse": 3.2328171037581757,
+      "weighted_rmse": 3.421685907241641
+    },
+    {
+      "seeds": [
+        1223,
+        2041,
+        3301
+      ],
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5
+      },
+      "blend": 0.25,
+      "raw_rmse": 3.0822774430907804,
+      "test_masks_rmse": 3.2336823599969784,
+      "weighted_rmse": 3.4225559873724074
+    },
+    {
+      "seeds": [
+        1223,
+        2041
+      ],
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5
+      },
+      "blend": 0.25,
+      "raw_rmse": 3.082517148621214,
+      "test_masks_rmse": 3.2340772059690517,
+      "weighted_rmse": 3.423335408058515
+    },
+    {
+      "seeds": [
+        1223
+      ],
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5
+      },
+      "blend": 0.5,
+      "raw_rmse": 3.086904958893888,
+      "test_masks_rmse": 3.2476338332890955,
+      "weighted_rmse": 3.426616424077054
+    },
+    {
+      "seeds": [
+        1223,
+        2041,
+        3301
+      ],
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5
+      },
+      "blend": 0.5,
+      "raw_rmse": 3.086344520377337,
+      "test_masks_rmse": 3.2489552611919312,
+      "weighted_rmse": 3.427977113792432
+    },
+    {
+      "seeds": [
+        1223,
+        2041
+      ],
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5
+      },
+      "blend": 0.5,
+      "raw_rmse": 3.0868391726183733,
+      "test_masks_rmse": 3.2498514018996216,
+      "weighted_rmse": 3.429599797181122
+    },
+    {
+      "seeds": [
+        1223
+      ],
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5
+      },
+      "blend": 0.75,
+      "raw_rmse": 3.093948552298072,
+      "test_masks_rmse": 3.2675569443907935,
+      "weighted_rmse": 3.4379677397522626
+    },
+    {
+      "seeds": [
+        1223,
+        2041,
+        3301
+      ],
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5
+      },
+      "blend": 0.75,
+      "raw_rmse": 3.092874879846344,
+      "test_masks_rmse": 3.2689290555366792,
+      "weighted_rmse": 3.4394386151986365
+    },
+    {
+      "seeds": [
+        1223,
+        2041
+      ],
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5
+      },
+      "blend": 0.75,
+      "raw_rmse": 3.093639047102277,
+      "test_masks_rmse": 3.2704292377759328,
+      "weighted_rmse": 3.4419636151526194
+    },
+    {
+      "seeds": [
+        1223
+      ],
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5
+      },
+      "blend": 1.0,
+      "raw_rmse": 3.1035924366358763,
+      "test_masks_rmse": 3.2924937411464916,
+      "weighted_rmse": 3.455676581117516
+    },
+    {
+      "seeds": [
+        1223,
+        2041,
+        3301
+      ],
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5
+      },
+      "blend": 1.0,
+      "raw_rmse": 3.1018529636251633,
+      "test_masks_rmse": 3.2935182173583337,
+      "weighted_rmse": 3.456880410399408
+    },
+    {
+      "seeds": [
+        1223,
+        2041
+      ],
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5
+      },
+      "blend": 1.0,
+      "raw_rmse": 3.102900481803704,
+      "test_masks_rmse": 3.2957207358604865,
+      "weighted_rmse": 3.4603614830962734
+    }
+  ],
+  "folds": [
+    {
+      "fold": 0,
+      "seeds": [
+        1223
+      ],
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5
+      },
+      "blend": 0.25,
+      "raw_mse": 9.516278627818194,
+      "stress_mse": 10.481608636197839,
+      "weighted_mse": 11.34252785310472
+    },
+    {
+      "fold": 0,
+      "seeds": [
+        1223
+      ],
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5
+      },
+      "blend": 0.5,
+      "raw_mse": 9.55893269652956,
+      "stress_mse": 10.59208354722533,
+      "weighted_mse": 11.435720555746192
+    },
+    {
+      "fold": 0,
+      "seeds": [
+        1223
+      ],
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5
+      },
+      "blend": 0.75,
+      "raw_mse": 9.618921288072437,
+      "stress_mse": 10.738219826256083,
+      "weighted_mse": 11.573567295733422
+    },
+    {
+      "fold": 0,
+      "seeds": [
+        1223
+      ],
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5
+      },
+      "blend": 1.0,
+      "raw_mse": 9.696244402446817,
+      "stress_mse": 10.920017473290095,
+      "weighted_mse": 11.756068073066412
+    },
+    {
+      "fold": 0,
+      "seeds": [
+        1223,
+        2041
+      ],
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5
+      },
+      "blend": 0.25,
+      "raw_mse": 9.518131396090475,
+      "stress_mse": 10.481092528330432,
+      "weighted_mse": 11.334929923419228
+    },
+    {
+      "fold": 0,
+      "seeds": [
+        1223,
+        2041
+      ],
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5
+      },
+      "blend": 0.5,
+      "raw_mse": 9.561554289923006,
+      "stress_mse": 10.588611451278753,
+      "weighted_mse": 11.418914305861328
+    },
+    {
+      "fold": 0,
+      "seeds": [
+        1223,
+        2041
+      ],
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5
+      },
+      "blend": 0.75,
+      "raw_mse": 9.621227763435929,
+      "stress_mse": 10.729351862018571,
+      "weighted_mse": 11.545942335135315
+    },
+    {
+      "fold": 0,
+      "seeds": [
+        1223,
+        2041
+      ],
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5
+      },
+      "blend": 1.0,
+      "raw_mse": 9.69715181662924,
+      "stress_mse": 10.903313760549887,
+      "weighted_mse": 11.716014011241183
+    },
+    {
+      "fold": 0,
+      "seeds": [
+        1223,
+        2041,
+        3301
+      ],
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5
+      },
+      "blend": 0.25,
+      "raw_mse": 9.516982441319849,
+      "stress_mse": 10.477289527331093,
+      "weighted_mse": 11.3271075297004
+    },
+    {
+      "fold": 0,
+      "seeds": [
+        1223,
+        2041,
+        3301
+      ],
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5
+      },
+      "blend": 0.5,
+      "raw_mse": 9.55910716794788,
+      "stress_mse": 10.5796239611365,
+      "weighted_mse": 11.402148569799238
+    },
+    {
+      "fold": 0,
+      "seeds": [
+        1223,
+        2041,
+        3301
+      ],
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5
+      },
+      "blend": 0.75,
+      "raw_mse": 9.617333261822418,
+      "stress_mse": 10.71379839458983,
+      "weighted_mse": 11.519112308105518
+    },
+    {
+      "fold": 0,
+      "seeds": [
+        1223,
+        2041,
+        3301
+      ],
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5
+      },
+      "blend": 1.0,
+      "raw_mse": 9.69166072294347,
+      "stress_mse": 10.879812827691083,
+      "weighted_mse": 11.677998744619238
+    },
+    {
+      "fold": 1,
+      "seeds": [
+        1223
+      ],
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5
+      },
+      "blend": 0.25,
+      "raw_mse": 9.156732795398739,
+      "stress_mse": 10.07806934492231,
+      "weighted_mse": 11.412117584924614
+    },
+    {
+      "fold": 1,
+      "seeds": [
+        1223
+      ],
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5
+      },
+      "blend": 0.5,
+      "raw_mse": 9.171471218253224,
+      "stress_mse": 10.16811090133935,
+      "weighted_mse": 11.426291998513097
+    },
+    {
+      "fold": 1,
+      "seeds": [
+        1223
+      ],
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5
+      },
+      "blend": 0.75,
+      "raw_mse": 9.202943723157633,
+      "stress_mse": 10.2949460953202,
+      "weighted_mse": 11.491327131860848
+    },
+    {
+      "fold": 1,
+      "seeds": [
+        1223
+      ],
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5
+      },
+      "blend": 1.0,
+      "raw_mse": 9.251150310111958,
+      "stress_mse": 10.458574926864863,
+      "weighted_mse": 11.60722298496787
+    },
+    {
+      "fold": 1,
+      "seeds": [
+        1223,
+        2041
+      ],
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5
+      },
+      "blend": 0.25,
+      "raw_mse": 9.153420996408771,
+      "stress_mse": 10.099373635059402,
+      "weighted_mse": 11.44438928429736
+    },
+    {
+      "fold": 1,
+      "seeds": [
+        1223,
+        2041
+      ],
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5
+      },
+      "blend": 0.5,
+      "raw_mse": 9.164343565673583,
+      "stress_mse": 10.208855627417604,
+      "weighted_mse": 11.488592724416126
+    },
+    {
+      "fold": 1,
+      "seeds": [
+        1223,
+        2041
+      ],
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5
+      },
+      "blend": 0.75,
+      "raw_mse": 9.191496162388606,
+      "stress_mse": 10.353267403143683,
+      "weighted_mse": 11.58141421145169
+    },
+    {
+      "fold": 1,
+      "seeds": [
+        1223,
+        2041
+      ],
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5
+      },
+      "blend": 1.0,
+      "raw_mse": 9.234878786553836,
+      "stress_mse": 10.532608962237637,
+      "weighted_mse": 11.722853745404052
+    },
+    {
+      "fold": 1,
+      "seeds": [
+        1223,
+        2041,
+        3301
+      ],
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5
+      },
+      "blend": 0.25,
+      "raw_mse": 9.152856207216617,
+      "stress_mse": 10.098441248120107,
+      "weighted_mse": 11.443201683179689
+    },
+    {
+      "fold": 1,
+      "seeds": [
+        1223,
+        2041,
+        3301
+      ],
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5
+      },
+      "blend": 0.5,
+      "raw_mse": 9.163155974493593,
+      "stress_mse": 10.206906959375605,
+      "weighted_mse": 11.486741045897602
+    },
+    {
+      "fold": 1,
+      "seeds": [
+        1223,
+        2041,
+        3301
+      ],
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5
+      },
+      "blend": 0.75,
+      "raw_mse": 9.189627756425097,
+      "stress_mse": 10.350218559835573,
+      "weighted_mse": 11.579421979249128
+    },
+    {
+      "fold": 1,
+      "seeds": [
+        1223,
+        2041,
+        3301
+      ],
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5
+      },
+      "blend": 1.0,
+      "raw_mse": 9.232271553011126,
+      "stress_mse": 10.528376049500018,
+      "weighted_mse": 11.72124448323427
+    },
+    {
+      "fold": 2,
+      "seeds": [
+        1223
+      ],
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5
+      },
+      "blend": 0.25,
+      "raw_mse": 9.832027843800374,
+      "stress_mse": 10.793641297934045,
+      "weighted_mse": 12.369157905418826
+    },
+    {
+      "fold": 2,
+      "seeds": [
+        1223
+      ],
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5
+      },
+      "blend": 0.5,
+      "raw_mse": 9.85654276094824,
+      "stress_mse": 10.881182096807393,
+      "weighted_mse": 12.363087799004564
+    },
+    {
+      "fold": 2,
+      "seeds": [
+        1223
+      ],
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5
+      },
+      "blend": 0.75,
+      "raw_mse": 9.89568792157194,
+      "stress_mse": 10.99761923293321,
+      "weighted_mse": 12.39397211113757
+    },
+    {
+      "fold": 2,
+      "seeds": [
+        1223
+      ],
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5
+      },
+      "blend": 1.0,
+      "raw_mse": 9.949463325671475,
+      "stress_mse": 11.142952706311501,
+      "weighted_mse": 12.461810841817844
+    },
+    {
+      "fold": 2,
+      "seeds": [
+        1223,
+        2041
+      ],
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5
+      },
+      "blend": 0.25,
+      "raw_mse": 9.834183522132337,
+      "stress_mse": 10.797299959115923,
+      "weighted_mse": 12.3783567404849
+    },
+    {
+      "fold": 2,
+      "seeds": [
+        1223,
+        2041
+      ],
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5
+      },
+      "blend": 0.5,
+      "raw_mse": 9.859830377237264,
+      "stress_mse": 10.88713532459045,
+      "weighted_mse": 12.378957276196935
+    },
+    {
+      "fold": 2,
+      "seeds": [
+        1223,
+        2041
+      ],
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5
+      },
+      "blend": 0.75,
+      "raw_mse": 9.899083735443117,
+      "stress_mse": 11.004502932736752,
+      "weighted_mse": 12.413984037516464
+    },
+    {
+      "fold": 2,
+      "seeds": [
+        1223,
+        2041
+      ],
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5
+      },
+      "blend": 1.0,
+      "raw_mse": 9.951943596749905,
+      "stress_mse": 11.14940278355483,
+      "weighted_mse": 12.483437024443491
+    },
+    {
+      "fold": 2,
+      "seeds": [
+        1223,
+        2041,
+        3301
+      ],
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5
+      },
+      "blend": 0.25,
+      "raw_mse": 9.831464060022252,
+      "stress_mse": 10.794374040615686,
+      "weighted_mse": 12.371359247216052
+    },
+    {
+      "fold": 2,
+      "seeds": [
+        1223,
+        2041,
+        3301
+      ],
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5
+      },
+      "blend": 0.5,
+      "raw_mse": 9.854304352948173,
+      "stress_mse": 10.880599947168086,
+      "weighted_mse": 12.364191662357236
+    },
+    {
+      "fold": 2,
+      "seeds": [
+        1223,
+        2041,
+        3301
+      ],
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5
+      },
+      "blend": 0.75,
+      "raw_mse": 9.8906640489061,
+      "stress_mse": 10.993674555970374,
+      "weighted_mse": 12.390679675803895
+    },
+    {
+      "fold": 2,
+      "seeds": [
+        1223,
+        2041,
+        3301
+      ],
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5
+      },
+      "blend": 1.0,
+      "raw_mse": 9.940543147896033,
+      "stress_mse": 11.133597867022548,
+      "weighted_mse": 12.450823287556036
+    }
+  ]
+}

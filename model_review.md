@@ -1,3 +1,5 @@
+> Update after competition feedback: `candidate_v4.csv` scored **3.37**, improving the earlier reported best of about 3.4. It is now the confirmed competition best. The first-round local holdout below did not predict that improvement. See `model_v5_review.md` for the next experiment.
+
 # Review of the energy-usage model
 
 The latest approach is strong. The extra model I tested improved development cross-validation, but **the gain did not hold up on the reserved confirmation set**. Keep the current competition best as the default. `candidate_v4.csv` is an experimental submission, and a score of 3.20 on the hidden test labels has not been demonstrated.

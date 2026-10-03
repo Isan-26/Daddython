@@ -1,0 +1,2646 @@
+{
+  "baseline": {
+    "raw_rmse": 3.0806834039793203,
+    "test_masks_rmse": 3.2231771776491933,
+    "weighted_rmse": 3.423203933416995
+  },
+  "summary": [
+    {
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 1,
+        "energy_weight": 0.5,
+        "missing_flags": false,
+        "probability_events": false
+      },
+      "blend": 0.25,
+      "raw_rmse": 3.082313837704193,
+      "test_masks_rmse": 3.2335184641805235,
+      "weighted_rmse": 3.421674628003984
+    },
+    {
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 0,
+        "energy_weight": 1,
+        "missing_flags": false,
+        "probability_events": false
+      },
+      "blend": 0.25,
+      "raw_rmse": 3.085067784073753,
+      "test_masks_rmse": 3.2370562991080307,
+      "weighted_rmse": 3.422005352260065
+    },
+    {
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 3,
+        "energy_weight": 1,
+        "missing_flags": true,
+        "probability_events": false
+      },
+      "blend": 0.25,
+      "raw_rmse": 3.0826916473593218,
+      "test_masks_rmse": 3.235159282226799,
+      "weighted_rmse": 3.422506541028626
+    },
+    {
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 0,
+        "energy_weight": 0.5,
+        "missing_flags": false,
+        "probability_events": false
+      },
+      "blend": 0.25,
+      "raw_rmse": 3.083285351766717,
+      "test_masks_rmse": 3.235230977096477,
+      "weighted_rmse": 3.4227563641101932
+    },
+    {
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 1,
+        "energy_weight": 1,
+        "missing_flags": true,
+        "probability_events": false
+      },
+      "blend": 0.25,
+      "raw_rmse": 3.0835683074607414,
+      "test_masks_rmse": 3.238942982505683,
+      "weighted_rmse": 3.4239698517096357
+    },
+    {
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 1,
+        "energy_weight": 0.5,
+        "missing_flags": false,
+        "probability_events": false
+      },
+      "blend": 0.5,
+      "raw_rmse": 3.087493335428435,
+      "test_masks_rmse": 3.249340258692183,
+      "weighted_rmse": 3.42790319361106
+    },
+    {
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 0,
+        "energy_weight": 0.5,
+        "missing_flags": false,
+        "probability_events": false
+      },
+      "blend": 0.5,
+      "raw_rmse": 3.0890108365724416,
+      "test_masks_rmse": 3.252498304328219,
+      "weighted_rmse": 3.4291028864802566
+    },
+    {
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 1,
+        "energy_weight": 1.5,
+        "missing_flags": true,
+        "probability_events": false
+      },
+      "blend": 0.25,
+      "raw_rmse": 3.089624654631323,
+      "test_masks_rmse": 3.249296630710311,
+      "weighted_rmse": 3.4310181690817676
+    },
+    {
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 0,
+        "energy_weight": 1,
+        "missing_flags": false,
+        "probability_events": false
+      },
+      "blend": 0.5,
+      "raw_rmse": 3.09536088670932,
+      "test_masks_rmse": 3.2588466205058833,
+      "weighted_rmse": 3.4314511038381843
+    },
+    {
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 3,
+        "energy_weight": 0.5,
+        "missing_flags": true,
+        "probability_events": true
+      },
+      "blend": 0.25,
+      "raw_rmse": 3.086505883823352,
+      "test_masks_rmse": 3.2362678480889504,
+      "weighted_rmse": 3.4339226499010285
+    },
+    {
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 3,
+        "energy_weight": 1,
+        "missing_flags": true,
+        "probability_events": false
+      },
+      "blend": 0.5,
+      "raw_rmse": 3.0910632831038454,
+      "test_masks_rmse": 3.2563960893577546,
+      "weighted_rmse": 3.4339795376105196
+    },
+    {
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 3,
+        "energy_weight": 1,
+        "missing_flags": true,
+        "probability_events": true
+      },
+      "blend": 0.25,
+      "raw_rmse": 3.087604601602512,
+      "test_masks_rmse": 3.2403318416638474,
+      "weighted_rmse": 3.4343217438442153
+    },
+    {
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 1,
+        "energy_weight": 1,
+        "missing_flags": true,
+        "probability_events": false
+      },
+      "blend": 0.5,
+      "raw_rmse": 3.093685816644163,
+      "test_masks_rmse": 3.2664889553177963,
+      "weighted_rmse": 3.440452139280336
+    },
+    {
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 1,
+        "energy_weight": 0.5,
+        "missing_flags": false,
+        "probability_events": false
+      },
+      "blend": 0.75,
+      "raw_rmse": 3.0962040860044056,
+      "test_masks_rmse": 3.2705630240377346,
+      "weighted_rmse": 3.4418475132245034
+    },
+    {
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 0,
+        "energy_weight": 0.5,
+        "missing_flags": false,
+        "probability_events": false
+      },
+      "blend": 0.75,
+      "raw_rmse": 3.097842539523581,
+      "test_masks_rmse": 3.2748966933322596,
+      "weighted_rmse": 3.442205921177986
+    },
+    {
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 0,
+        "energy_weight": 1,
+        "missing_flags": false,
+        "probability_events": false
+      },
+      "blend": 0.75,
+      "raw_rmse": 3.1115040728679975,
+      "test_masks_rmse": 3.28839087635298,
+      "weighted_rmse": 3.451453796759979
+    },
+    {
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 3,
+        "energy_weight": 1,
+        "missing_flags": true,
+        "probability_events": false
+      },
+      "blend": 0.75,
+      "raw_rmse": 3.1057468534822665,
+      "test_masks_rmse": 3.286708208335111,
+      "weighted_rmse": 3.4575017706132374
+    },
+    {
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 0,
+        "energy_weight": 0.5,
+        "missing_flags": false,
+        "probability_events": false
+      },
+      "blend": 1.0,
+      "raw_rmse": 3.109753995749345,
+      "test_masks_rmse": 3.302321739653255,
+      "weighted_rmse": 3.4619887523262545
+    },
+    {
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 1,
+        "energy_weight": 0.5,
+        "missing_flags": false,
+        "probability_events": false
+      },
+      "blend": 1.0,
+      "raw_rmse": 3.1084164025639915,
+      "test_masks_rmse": 3.2970824664438694,
+      "weighted_rmse": 3.46341439312257
+    },
+    {
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 3,
+        "energy_weight": 0.5,
+        "missing_flags": true,
+        "probability_events": true
+      },
+      "blend": 0.5,
+      "raw_rmse": 3.1026278945588364,
+      "test_masks_rmse": 3.261255366318839,
+      "weighted_rmse": 3.4650597362813897
+    },
+    {
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 1,
+        "energy_weight": 1.5,
+        "missing_flags": true,
+        "probability_events": false
+      },
+      "blend": 0.5,
+      "raw_rmse": 3.114688978531269,
+      "test_masks_rmse": 3.2994328847374614,
+      "weighted_rmse": 3.4687703120071296
+    },
+    {
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 3,
+        "energy_weight": 1,
+        "missing_flags": true,
+        "probability_events": true
+      },
+      "blend": 0.5,
+      "raw_rmse": 3.1072026230237793,
+      "test_masks_rmse": 3.272439444653211,
+      "weighted_rmse": 3.469665727346934
+    },
+    {
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 1,
+        "energy_weight": 1,
+        "missing_flags": true,
+        "probability_events": false
+      },
+      "blend": 0.75,
+      "raw_rmse": 3.1109653664964663,
+      "test_masks_rmse": 3.3055206053494266,
+      "weighted_rmse": 3.47242700449527
+    },
+    {
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 0,
+        "energy_weight": 1,
+        "missing_flags": false,
+        "probability_events": false
+      },
+      "blend": 1.0,
+      "raw_rmse": 3.1334069256709087,
+      "test_masks_rmse": 3.3254824105220733,
+      "weighted_rmse": 3.4818314907970884
+    },
+    {
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 3,
+        "energy_weight": 1,
+        "missing_flags": true,
+        "probability_events": false
+      },
+      "blend": 1.0,
+      "raw_rmse": 3.126653432343559,
+      "test_masks_rmse": 3.3258475084160093,
+      "weighted_rmse": 3.4928298141451823
+    },
+    {
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 3,
+        "energy_weight": 0.5,
+        "missing_flags": true,
+        "probability_events": true
+      },
+      "blend": 0.75,
+      "raw_rmse": 3.1288902312495557,
+      "test_masks_rmse": 3.2978693209140424,
+      "weighted_rmse": 3.516072780994023
+    },
+    {
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 1,
+        "energy_weight": 1,
+        "missing_flags": true,
+        "probability_events": false
+      },
+      "blend": 1.0,
+      "raw_rmse": 3.135288542555852,
+      "test_masks_rmse": 3.35563716385611,
+      "weighted_rmse": 3.519472216401852
+    },
+    {
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 3,
+        "energy_weight": 1,
+        "missing_flags": true,
+        "probability_events": true
+      },
+      "blend": 0.75,
+      "raw_rmse": 3.1392400560677345,
+      "test_masks_rmse": 3.3190660648717762,
+      "weighted_rmse": 3.528507960543075
+    },
+    {
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 1,
+        "energy_weight": 1.5,
+        "missing_flags": true,
+        "probability_events": false
+      },
+      "blend": 0.75,
+      "raw_rmse": 3.1554921985308284,
+      "test_masks_rmse": 3.3725149989501,
+      "weighted_rmse": 3.535501459827177
+    },
+    {
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 3,
+        "energy_weight": 0.5,
+        "missing_flags": true,
+        "probability_events": true
+      },
+      "blend": 1.0,
+      "raw_rmse": 3.165040481924215,
+      "test_masks_rmse": 3.3457280321362264,
+      "weighted_rmse": 3.5861136681997503
+    },
+    {
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 3,
+        "energy_weight": 1,
+        "missing_flags": true,
+        "probability_events": true
+      },
+      "blend": 1.0,
+      "raw_rmse": 3.183341348822005,
+      "test_masks_rmse": 3.3796108231990587,
+      "weighted_rmse": 3.609699481191052
+    },
+    {
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 1,
+        "energy_weight": 1.5,
+        "missing_flags": true,
+        "probability_events": false
+      },
+      "blend": 1.0,
+      "raw_rmse": 3.2114344540282946,
+      "test_masks_rmse": 3.467092263859538,
+      "weighted_rmse": 3.629613610496766
+    }
+  ],
+  "folds": [
+    {
+      "fold": 0,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 0,
+        "energy_weight": 0.5,
+        "missing_flags": false,
+        "probability_events": false
+      },
+      "blend": 0.25,
+      "raw_mse": 9.52307197052895,
+      "stress_mse": 10.490703247414839,
+      "weighted_mse": 11.316559394140365
+    },
+    {
+      "fold": 0,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 0,
+        "energy_weight": 0.5,
+        "missing_flags": false,
+        "probability_events": false
+      },
+      "blend": 0.5,
+      "raw_mse": 9.575545070745738,
+      "stress_mse": 10.610264294425644,
+      "weighted_mse": 11.389903598773047
+    },
+    {
+      "fold": 0,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 0,
+        "energy_weight": 0.5,
+        "missing_flags": false,
+        "probability_events": false
+      },
+      "blend": 0.75,
+      "raw_mse": 9.6483783825887,
+      "stress_mse": 10.765478234206023,
+      "weighted_mse": 11.514021801707058
+    },
+    {
+      "fold": 0,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 0,
+        "energy_weight": 0.5,
+        "missing_flags": false,
+        "probability_events": false
+      },
+      "blend": 1.0,
+      "raw_mse": 9.741571906057835,
+      "stress_mse": 10.956345066755981,
+      "weighted_mse": 11.688914002942392
+    },
+    {
+      "fold": 0,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 0,
+        "energy_weight": 1,
+        "missing_flags": false,
+        "probability_events": false
+      },
+      "blend": 0.25,
+      "raw_mse": 9.520246415038855,
+      "stress_mse": 10.489766209017928,
+      "weighted_mse": 11.291986435664802
+    },
+    {
+      "fold": 0,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 0,
+        "energy_weight": 1,
+        "missing_flags": false,
+        "probability_events": false
+      },
+      "blend": 0.5,
+      "raw_mse": 9.584324140925204,
+      "stress_mse": 10.622538904767646,
+      "weighted_mse": 11.368953228641443
+    },
+    {
+      "fold": 0,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 0,
+        "energy_weight": 1,
+        "missing_flags": false,
+        "probability_events": false
+      },
+      "blend": 0.75,
+      "raw_mse": 9.683192259597384,
+      "stress_mse": 10.805113180422769,
+      "weighted_mse": 11.524889566738931
+    },
+    {
+      "fold": 0,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 0,
+        "energy_weight": 1,
+        "missing_flags": false,
+        "probability_events": false
+      },
+      "blend": 1.0,
+      "raw_mse": 9.816850771055392,
+      "stress_mse": 11.037489035983292,
+      "weighted_mse": 11.759795449957263
+    },
+    {
+      "fold": 0,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 1,
+        "energy_weight": 0.5,
+        "missing_flags": false,
+        "probability_events": false
+      },
+      "blend": 0.25,
+      "raw_mse": 9.518467048548425,
+      "stress_mse": 10.481015151927956,
+      "weighted_mse": 11.296603179331004
+    },
+    {
+      "fold": 0,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 1,
+        "energy_weight": 0.5,
+        "missing_flags": false,
+        "probability_events": false
+      },
+      "blend": 0.5,
+      "raw_mse": 9.570225340375595,
+      "stress_mse": 10.593283208158734,
+      "weighted_mse": 11.356928852113077
+    },
+    {
+      "fold": 0,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 1,
+        "energy_weight": 0.5,
+        "missing_flags": false,
+        "probability_events": false
+      },
+      "blend": 0.75,
+      "raw_mse": 9.64623395741984,
+      "stress_mse": 10.743599261865944,
+      "weighted_mse": 11.47496620615522
+    },
+    {
+      "fold": 0,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 1,
+        "energy_weight": 0.5,
+        "missing_flags": false,
+        "probability_events": false
+      },
+      "blend": 1.0,
+      "raw_mse": 9.746492899681167,
+      "stress_mse": 10.931963313049588,
+      "weighted_mse": 11.650715241457435
+    },
+    {
+      "fold": 0,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 1,
+        "energy_weight": 1,
+        "missing_flags": true,
+        "probability_events": false
+      },
+      "blend": 0.25,
+      "raw_mse": 9.522859874332516,
+      "stress_mse": 10.520125550135516,
+      "weighted_mse": 11.32934186539529
+    },
+    {
+      "fold": 0,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 1,
+        "energy_weight": 1,
+        "missing_flags": true,
+        "probability_events": false
+      },
+      "blend": 0.5,
+      "raw_mse": 9.597916384563318,
+      "stress_mse": 10.70611318884686,
+      "weighted_mse": 11.47032853132046
+    },
+    {
+      "fold": 0,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 1,
+        "energy_weight": 1,
+        "missing_flags": true,
+        "probability_events": false
+      },
+      "blend": 0.75,
+      "raw_mse": 9.716128612630733,
+      "stress_mse": 10.964758009307635,
+      "weighted_mse": 11.71694918558451
+    },
+    {
+      "fold": 0,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 1,
+        "energy_weight": 1,
+        "missing_flags": true,
+        "probability_events": false
+      },
+      "blend": 1.0,
+      "raw_mse": 9.87749655853477,
+      "stress_mse": 11.296060011517847,
+      "weighted_mse": 12.069203828187437
+    },
+    {
+      "fold": 0,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 1,
+        "energy_weight": 1.5,
+        "missing_flags": true,
+        "probability_events": false
+      },
+      "blend": 0.25,
+      "raw_mse": 9.53127486297264,
+      "stress_mse": 10.561236806908344,
+      "weighted_mse": 11.325602157014812
+    },
+    {
+      "fold": 0,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 1,
+        "energy_weight": 1.5,
+        "missing_flags": true,
+        "probability_events": false
+      },
+      "blend": 0.5,
+      "raw_mse": 9.651385886043283,
+      "stress_mse": 10.847878282346944,
+      "weighted_mse": 11.53822776622068
+    },
+    {
+      "fold": 0,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 1,
+        "energy_weight": 1.5,
+        "missing_flags": true,
+        "probability_events": false
+      },
+      "blend": 0.75,
+      "raw_mse": 9.851292151150261,
+      "stress_mse": 11.266719519489417,
+      "weighted_mse": 11.93186601542661
+    },
+    {
+      "fold": 0,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 1,
+        "energy_weight": 1.5,
+        "missing_flags": true,
+        "probability_events": false
+      },
+      "blend": 1.0,
+      "raw_mse": 10.130993658293574,
+      "stress_mse": 11.817760518335756,
+      "weighted_mse": 12.506516904632603
+    },
+    {
+      "fold": 0,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 3,
+        "energy_weight": 1,
+        "missing_flags": true,
+        "probability_events": false
+      },
+      "blend": 0.25,
+      "raw_mse": 9.513118357585205,
+      "stress_mse": 10.50471733451706,
+      "weighted_mse": 11.319433293563915
+    },
+    {
+      "fold": 0,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 3,
+        "energy_weight": 1,
+        "missing_flags": true,
+        "probability_events": false
+      },
+      "blend": 0.5,
+      "raw_mse": 9.576391716257666,
+      "stress_mse": 10.666344211564015,
+      "weighted_mse": 11.436806725474488
+    },
+    {
+      "fold": 0,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 3,
+        "energy_weight": 1,
+        "missing_flags": true,
+        "probability_events": false
+      },
+      "blend": 0.75,
+      "raw_mse": 9.680779157955717,
+      "stress_mse": 10.89167572431447,
+      "weighted_mse": 11.646109483540734
+    },
+    {
+      "fold": 0,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 3,
+        "energy_weight": 1,
+        "missing_flags": true,
+        "probability_events": false
+      },
+      "blend": 1.0,
+      "raw_mse": 9.82628068267936,
+      "stress_mse": 11.18071187276843,
+      "weighted_mse": 11.947341567762653
+    },
+    {
+      "fold": 0,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 3,
+        "energy_weight": 1,
+        "missing_flags": true,
+        "probability_events": true
+      },
+      "blend": 0.25,
+      "raw_mse": 9.604393916779339,
+      "stress_mse": 10.614359955487343,
+      "weighted_mse": 11.552820946108534
+    },
+    {
+      "fold": 0,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 3,
+        "energy_weight": 1,
+        "missing_flags": true,
+        "probability_events": true
+      },
+      "blend": 0.5,
+      "raw_mse": 9.87735122882492,
+      "stress_mse": 11.002966518426362,
+      "weighted_mse": 12.157156103660828
+    },
+    {
+      "fold": 0,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 3,
+        "energy_weight": 1,
+        "missing_flags": true,
+        "probability_events": true
+      },
+      "blend": 0.75,
+      "raw_mse": 10.309831018075078,
+      "stress_mse": 11.572614781990664,
+      "weighted_mse": 13.106994660465885
+    },
+    {
+      "fold": 0,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 3,
+        "energy_weight": 1,
+        "missing_flags": true,
+        "probability_events": true
+      },
+      "blend": 1.0,
+      "raw_mse": 10.901833284529811,
+      "stress_mse": 12.323304746180252,
+      "weighted_mse": 14.402336616523703
+    },
+    {
+      "fold": 0,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 3,
+        "energy_weight": 0.5,
+        "missing_flags": true,
+        "probability_events": true
+      },
+      "blend": 0.25,
+      "raw_mse": 9.59378419690872,
+      "stress_mse": 10.582653896589012,
+      "weighted_mse": 11.522971504150176
+    },
+    {
+      "fold": 0,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 3,
+        "energy_weight": 0.5,
+        "missing_flags": true,
+        "probability_events": true
+      },
+      "blend": 0.5,
+      "raw_mse": 9.844578806800245,
+      "stress_mse": 10.920899972387074,
+      "weighted_mse": 12.074757961244336
+    },
+    {
+      "fold": 0,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 3,
+        "energy_weight": 0.5,
+        "missing_flags": true,
+        "probability_events": true
+      },
+      "blend": 0.75,
+      "raw_mse": 10.243342911612908,
+      "stress_mse": 11.421533320567795,
+      "weighted_mse": 12.94934855909148
+    },
+    {
+      "fold": 0,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 3,
+        "energy_weight": 0.5,
+        "missing_flags": true,
+        "probability_events": true
+      },
+      "blend": 1.0,
+      "raw_mse": 10.790076511346705,
+      "stress_mse": 12.084553941131173,
+      "weighted_mse": 14.146743297691609
+    },
+    {
+      "fold": 1,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 0,
+        "energy_weight": 0.5,
+        "missing_flags": false,
+        "probability_events": false
+      },
+      "blend": 0.25,
+      "raw_mse": 9.156232479856369,
+      "stress_mse": 10.100192057379608,
+      "weighted_mse": 11.44034076699599
+    },
+    {
+      "fold": 1,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 0,
+        "energy_weight": 0.5,
+        "missing_flags": false,
+        "probability_events": false
+      },
+      "blend": 0.5,
+      "raw_mse": 9.172481036706799,
+      "stress_mse": 10.211103586518382,
+      "weighted_mse": 11.482508494867984
+    },
+    {
+      "fold": 1,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 0,
+        "energy_weight": 0.5,
+        "missing_flags": false,
+        "probability_events": false
+      },
+      "blend": 0.75,
+      "raw_mse": 9.207474125145453,
+      "stress_mse": 10.357556013485404,
+      "weighted_mse": 11.575307074711366
+    },
+    {
+      "fold": 1,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 0,
+        "energy_weight": 0.5,
+        "missing_flags": false,
+        "probability_events": false
+      },
+      "blend": 1.0,
+      "raw_mse": 9.261211745172336,
+      "stress_mse": 10.539549338280676,
+      "weighted_mse": 11.718736506526149
+    },
+    {
+      "fold": 1,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 0,
+        "energy_weight": 1,
+        "missing_flags": false,
+        "probability_events": false
+      },
+      "blend": 0.25,
+      "raw_mse": 9.174264258259974,
+      "stress_mse": 10.122026910253817,
+      "weighted_mse": 11.450929751756554
+    },
+    {
+      "fold": 1,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 0,
+        "energy_weight": 1,
+        "missing_flags": false,
+        "probability_events": false
+      },
+      "blend": 0.5,
+      "raw_mse": 9.225336411440828,
+      "stress_mse": 10.272724560122825,
+      "weighted_mse": 11.526262193908275
+    },
+    {
+      "fold": 1,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 0,
+        "energy_weight": 1,
+        "missing_flags": false,
+        "probability_events": false
+      },
+      "blend": 0.75,
+      "raw_mse": 9.311944914136737,
+      "stress_mse": 10.476914375676108,
+      "weighted_mse": 11.674801217550561
+    },
+    {
+      "fold": 1,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 0,
+        "energy_weight": 1,
+        "missing_flags": false,
+        "probability_events": false
+      },
+      "blend": 1.0,
+      "raw_mse": 9.434089766347693,
+      "stress_mse": 10.73459635691367,
+      "weighted_mse": 11.896546822683407
+    },
+    {
+      "fold": 1,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 1,
+        "energy_weight": 0.5,
+        "missing_flags": false,
+        "probability_events": false
+      },
+      "blend": 0.25,
+      "raw_mse": 9.149414182007357,
+      "stress_mse": 10.095998644435616,
+      "weighted_mse": 11.439373570149382
+    },
+    {
+      "fold": 1,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 1,
+        "energy_weight": 0.5,
+        "missing_flags": false,
+        "probability_events": false
+      },
+      "blend": 0.5,
+      "raw_mse": 9.163155221722283,
+      "stress_mse": 10.20754861205709,
+      "weighted_mse": 11.49364936568093
+    },
+    {
+      "fold": 1,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 1,
+        "energy_weight": 0.5,
+        "missing_flags": false,
+        "probability_events": false
+      },
+      "blend": 0.75,
+      "raw_mse": 9.199951573738948,
+      "stress_mse": 10.359471328933505,
+      "weighted_mse": 11.611631277690028
+    },
+    {
+      "fold": 1,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 1,
+        "energy_weight": 0.5,
+        "missing_flags": false,
+        "probability_events": false
+      },
+      "blend": 1.0,
+      "raw_mse": 9.25980323805735,
+      "stress_mse": 10.55176679506486,
+      "weighted_mse": 11.793319306176691
+    },
+    {
+      "fold": 1,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 1,
+        "energy_weight": 1,
+        "missing_flags": true,
+        "probability_events": false
+      },
+      "blend": 0.25,
+      "raw_mse": 9.154433393536326,
+      "stress_mse": 10.159724231644336,
+      "weighted_mse": 11.447774472900152
+    },
+    {
+      "fold": 1,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 1,
+        "energy_weight": 1,
+        "missing_flags": true,
+        "probability_events": false
+      },
+      "blend": 0.5,
+      "raw_mse": 9.204797184928509,
+      "stress_mse": 10.400164940675461,
+      "weighted_mse": 11.598571191318559
+    },
+    {
+      "fold": 1,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 1,
+        "energy_weight": 1,
+        "missing_flags": true,
+        "probability_events": false
+      },
+      "blend": 0.75,
+      "raw_mse": 9.309819828770719,
+      "stress_mse": 10.74614355316245,
+      "weighted_mse": 11.901194046350613
+    },
+    {
+      "fold": 1,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 1,
+        "energy_weight": 1,
+        "missing_flags": true,
+        "probability_events": false
+      },
+      "blend": 1.0,
+      "raw_mse": 9.469501325062948,
+      "stress_mse": 11.197660069105305,
+      "weighted_mse": 12.355643037996312
+    },
+    {
+      "fold": 1,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 1,
+        "energy_weight": 1.5,
+        "missing_flags": true,
+        "probability_events": false
+      },
+      "blend": 0.25,
+      "raw_mse": 9.221645479596274,
+      "stress_mse": 10.28170545823634,
+      "weighted_mse": 11.598564092498895
+    },
+    {
+      "fold": 1,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 1,
+        "energy_weight": 1.5,
+        "missing_flags": true,
+        "probability_events": false
+      },
+      "blend": 0.5,
+      "raw_mse": 9.418946974352275,
+      "stress_mse": 10.772320419368844,
+      "weighted_mse": 12.054946175017463
+    },
+    {
+      "fold": 1,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 1,
+        "energy_weight": 1.5,
+        "missing_flags": true,
+        "probability_events": false
+      },
+      "blend": 0.75,
+      "raw_mse": 9.750632938862172,
+      "stress_mse": 11.496666309466598,
+      "weighted_mse": 12.8179501386511
+    },
+    {
+      "fold": 1,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 1,
+        "energy_weight": 1.5,
+        "missing_flags": true,
+        "probability_events": false
+      },
+      "blend": 1.0,
+      "raw_mse": 10.216703373125965,
+      "stress_mse": 12.454743128529598,
+      "weighted_mse": 13.887575983399808
+    },
+    {
+      "fold": 1,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 3,
+        "energy_weight": 1,
+        "missing_flags": true,
+        "probability_events": false
+      },
+      "blend": 0.25,
+      "raw_mse": 9.1488256871678,
+      "stress_mse": 10.10207299966107,
+      "weighted_mse": 11.446775722305382
+    },
+    {
+      "fold": 1,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 3,
+        "energy_weight": 1,
+        "missing_flags": true,
+        "probability_events": false
+      },
+      "blend": 0.5,
+      "raw_mse": 9.180508771396703,
+      "stress_mse": 10.249252135072677,
+      "weighted_mse": 11.54177480795408
+    },
+    {
+      "fold": 1,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 3,
+        "energy_weight": 1,
+        "missing_flags": true,
+        "probability_events": false
+      },
+      "blend": 0.75,
+      "raw_mse": 9.25377770728087,
+      "stress_mse": 10.466358832303907,
+      "weighted_mse": 11.733801148041488
+    },
+    {
+      "fold": 1,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 3,
+        "energy_weight": 1,
+        "missing_flags": true,
+        "probability_events": false
+      },
+      "blend": 1.0,
+      "raw_mse": 9.368632494820309,
+      "stress_mse": 10.75339309135476,
+      "weighted_mse": 12.022854742567606
+    },
+    {
+      "fold": 1,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 3,
+        "energy_weight": 1,
+        "missing_flags": true,
+        "probability_events": true
+      },
+      "blend": 0.25,
+      "raw_mse": 9.146806032025028,
+      "stress_mse": 10.09144995975408,
+      "weighted_mse": 11.452941626655711
+    },
+    {
+      "fold": 1,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 3,
+        "energy_weight": 1,
+        "missing_flags": true,
+        "probability_events": true
+      },
+      "blend": 0.5,
+      "raw_mse": 9.176282331021518,
+      "stress_mse": 10.224046650985132,
+      "weighted_mse": 11.55323969215884
+    },
+    {
+      "fold": 1,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 3,
+        "energy_weight": 1,
+        "missing_flags": true,
+        "probability_events": true
+      },
+      "blend": 0.75,
+      "raw_mse": 9.247157351583638,
+      "stress_mse": 10.422611499762239,
+      "weighted_mse": 11.749698087604784
+    },
+    {
+      "fold": 1,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 3,
+        "energy_weight": 1,
+        "missing_flags": true,
+        "probability_events": true
+      },
+      "blend": 1.0,
+      "raw_mse": 9.359431093711391,
+      "stress_mse": 10.687144506085405,
+      "weighted_mse": 12.04231681299354
+    },
+    {
+      "fold": 1,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 3,
+        "energy_weight": 0.5,
+        "missing_flags": true,
+        "probability_events": true
+      },
+      "blend": 0.25,
+      "raw_mse": 9.14541317626761,
+      "stress_mse": 10.061443142186485,
+      "weighted_mse": 11.453222213461615
+    },
+    {
+      "fold": 1,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 3,
+        "energy_weight": 0.5,
+        "missing_flags": true,
+        "probability_events": true
+      },
+      "blend": 0.5,
+      "raw_mse": 9.155748332670987,
+      "stress_mse": 10.13843967536297,
+      "weighted_mse": 11.52028321607557
+    },
+    {
+      "fold": 1,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 3,
+        "energy_weight": 0.5,
+        "missing_flags": true,
+        "probability_events": true
+      },
+      "blend": 0.75,
+      "raw_mse": 9.189733923804303,
+      "stress_mse": 10.255811025598538,
+      "weighted_mse": 11.649986898937264
+    },
+    {
+      "fold": 1,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 3,
+        "energy_weight": 0.5,
+        "missing_flags": true,
+        "probability_events": true
+      },
+      "blend": 1.0,
+      "raw_mse": 9.247369949667558,
+      "stress_mse": 10.413557192893192,
+      "weighted_mse": 11.842333262046697
+    },
+    {
+      "fold": 2,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 0,
+        "energy_weight": 0.5,
+        "missing_flags": false,
+        "probability_events": false
+      },
+      "blend": 0.25,
+      "raw_mse": 9.840641230872311,
+      "stress_mse": 10.809263120699434,
+      "weighted_mse": 12.388883223034128
+    },
+    {
+      "fold": 2,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 0,
+        "energy_weight": 0.5,
+        "missing_flags": false,
+        "probability_events": false
+      },
+      "blend": 0.5,
+      "raw_mse": 9.87793773793339,
+      "stress_mse": 10.914867778029798,
+      "weighted_mse": 12.403827724560653
+    },
+    {
+      "fold": 2,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 0,
+        "energy_weight": 0.5,
+        "missing_flags": false,
+        "probability_events": false
+      },
+      "blend": 0.75,
+      "raw_mse": 9.934032691311579,
+      "stress_mse": 11.051810808304271,
+      "weighted_mse": 12.457015934959928
+    },
+    {
+      "fold": 2,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 0,
+        "energy_weight": 0.5,
+        "missing_flags": false,
+        "probability_events": false
+      },
+      "blend": 1.0,
+      "raw_mse": 10.00892609100688,
+      "stress_mse": 11.22009221152285,
+      "weighted_mse": 12.548447854231952
+    },
+    {
+      "fold": 2,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 0,
+        "energy_weight": 1,
+        "missing_flags": false,
+        "probability_events": false
+      },
+      "blend": 0.25,
+      "raw_mse": 9.858419023690379,
+      "stress_mse": 10.823807331513203,
+      "weighted_mse": 12.387445705268236
+    },
+    {
+      "fold": 2,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 0,
+        "energy_weight": 1,
+        "missing_flags": false,
+        "probability_events": false
+      },
+      "blend": 0.5,
+      "raw_mse": 9.934116504543697,
+      "stress_mse": 10.964980423057378,
+      "weighted_mse": 12.429354611547167
+    },
+    {
+      "fold": 2,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 0,
+        "energy_weight": 1,
+        "missing_flags": false,
+        "probability_events": false
+      },
+      "blend": 0.75,
+      "raw_mse": 10.049235612688292,
+      "stress_mse": 11.158516110945689,
+      "weighted_mse": 12.537909149217137
+    },
+    {
+      "fold": 2,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 0,
+        "energy_weight": 1,
+        "missing_flags": false,
+        "probability_events": false
+      },
+      "blend": 1.0,
+      "raw_mse": 10.203776348124164,
+      "stress_mse": 11.404414395178136,
+      "weighted_mse": 12.713109318278157
+    },
+    {
+      "fold": 2,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 1,
+        "energy_weight": 0.5,
+        "missing_flags": false,
+        "probability_events": false
+      },
+      "blend": 0.25,
+      "raw_mse": 9.834094551752468,
+      "stress_mse": 10.789911178225541,
+      "weighted_mse": 12.387595030298211
+    },
+    {
+      "fold": 2,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 1,
+        "energy_weight": 0.5,
+        "missing_flags": false,
+        "probability_events": false
+      },
+      "blend": 0.5,
+      "raw_mse": 9.864464726847135,
+      "stress_mse": 10.873804530057523,
+      "weighted_mse": 12.400982696512706
+    },
+    {
+      "fold": 2,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 1,
+        "energy_weight": 0.5,
+        "missing_flags": false,
+        "probability_events": false
+      },
+      "blend": 0.75,
+      "raw_mse": 9.913253695412342,
+      "stress_mse": 10.986676891809111,
+      "weighted_mse": 12.452345429023843
+    },
+    {
+      "fold": 2,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 1,
+        "energy_weight": 0.5,
+        "missing_flags": false,
+        "probability_events": false
+      },
+      "blend": 1.0,
+      "raw_mse": 9.980461457448087,
+      "stress_mse": 11.12852826348031,
+      "weighted_mse": 12.541683227831614
+    },
+    {
+      "fold": 2,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 1,
+        "energy_weight": 1,
+        "missing_flags": true,
+        "probability_events": false
+      },
+      "blend": 0.25,
+      "raw_mse": 9.84788725246006,
+      "stress_mse": 10.792405149988573,
+      "weighted_mse": 12.393592297954072
+    },
+    {
+      "fold": 2,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 1,
+        "energy_weight": 1,
+        "missing_flags": true,
+        "probability_events": false
+      },
+      "blend": 0.5,
+      "raw_mse": 9.909962226823955,
+      "stress_mse": 10.903572156117125,
+      "weighted_mse": 12.441233045396904
+    },
+    {
+      "fold": 2,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 1,
+        "energy_weight": 1,
+        "missing_flags": true,
+        "probability_events": false
+      },
+      "blend": 0.75,
+      "raw_mse": 10.008368093220028,
+      "stress_mse": 11.06849785469883,
+      "weighted_mse": 12.555104672708863
+    },
+    {
+      "fold": 2,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 1,
+        "energy_weight": 1,
+        "missing_flags": true,
+        "probability_events": false
+      },
+      "blend": 1.0,
+      "raw_mse": 10.14310485164828,
+      "stress_mse": 11.287182245733689,
+      "weighted_mse": 12.735207179889938
+    },
+    {
+      "fold": 2,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 1,
+        "energy_weight": 1.5,
+        "missing_flags": true,
+        "probability_events": false
+      },
+      "blend": 0.25,
+      "raw_mse": 9.884421176948255,
+      "stress_mse": 10.830843517891443,
+      "weighted_mse": 12.391490780193907
+    },
+    {
+      "fold": 2,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 1,
+        "energy_weight": 1.5,
+        "missing_flags": true,
+        "probability_events": false
+      },
+      "blend": 0.5,
+      "raw_mse": 10.033529438556918,
+      "stress_mse": 11.038573380945108,
+      "weighted_mse": 12.503928491147983
+    },
+    {
+      "fold": 2,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 1,
+        "energy_weight": 1.5,
+        "missing_flags": true,
+        "probability_events": false
+      },
+      "blend": 0.75,
+      "raw_mse": 10.26946795495433,
+      "stress_mse": 11.358186425474166,
+      "weighted_mse": 12.749495563242577
+    },
+    {
+      "fold": 2,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 1,
+        "energy_weight": 1.5,
+        "missing_flags": true,
+        "probability_events": false
+      },
+      "blend": 1.0,
+      "raw_mse": 10.592236726140491,
+      "stress_mse": 11.789682651478614,
+      "weighted_mse": 13.128191996477694
+    },
+    {
+      "fold": 2,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 3,
+        "energy_weight": 1,
+        "missing_flags": true,
+        "probability_events": false
+      },
+      "blend": 0.25,
+      "raw_mse": 9.84701933334378,
+      "stress_mse": 10.791976409956527,
+      "weighted_mse": 12.374444054281897
+    },
+    {
+      "fold": 2,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 3,
+        "energy_weight": 1,
+        "missing_flags": true,
+        "probability_events": false
+      },
+      "blend": 0.5,
+      "raw_mse": 9.907116172803804,
+      "stress_mse": 10.896750125716741,
+      "weighted_mse": 12.39806486075471
+    },
+    {
+      "fold": 2,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 3,
+        "energy_weight": 1,
+        "missing_flags": true,
+        "probability_events": false
+      },
+      "blend": 0.75,
+      "raw_mse": 10.002433688508411,
+      "stress_mse": 11.049317983593811,
+      "weighted_mse": 12.483044849798793
+    },
+    {
+      "fold": 2,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 3,
+        "energy_weight": 1,
+        "missing_flags": true,
+        "probability_events": false
+      },
+      "blend": 1.0,
+      "raw_mse": 10.132971880457605,
+      "stress_mse": 11.24967998358774,
+      "weighted_mse": 12.62938402141415
+    },
+    {
+      "fold": 2,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 3,
+        "energy_weight": 1,
+        "missing_flags": true,
+        "probability_events": true
+      },
+      "blend": 0.25,
+      "raw_mse": 9.848706578706658,
+      "stress_mse": 10.793441417060434,
+      "weighted_mse": 12.377934947959265
+    },
+    {
+      "fold": 2,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 3,
+        "energy_weight": 1,
+        "missing_flags": true,
+        "probability_events": true
+      },
+      "blend": 0.5,
+      "raw_mse": 9.910490861731125,
+      "stress_mse": 10.899566587355162,
+      "weighted_mse": 12.40534498275811
+    },
+    {
+      "fold": 2,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 3,
+        "energy_weight": 1,
+        "missing_flags": true,
+        "probability_events": true
+      },
+      "blend": 0.75,
+      "raw_mse": 10.007496019201742,
+      "stress_mse": 11.053372347197351,
+      "weighted_mse": 12.494412534776888
+    },
+    {
+      "fold": 2,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 3,
+        "energy_weight": 1,
+        "missing_flags": true,
+        "probability_events": true
+      },
+      "blend": 1.0,
+      "raw_mse": 10.139722051118506,
+      "stress_mse": 11.254858696587002,
+      "weighted_mse": 12.645137604015604
+    },
+    {
+      "fold": 2,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 3,
+        "energy_weight": 0.5,
+        "missing_flags": true,
+        "probability_events": true
+      },
+      "blend": 0.25,
+      "raw_mse": 9.840358339452187,
+      "stress_mse": 10.776191714947355,
+      "weighted_mse": 12.39928057889811
+    },
+    {
+      "fold": 2,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 3,
+        "energy_weight": 0.5,
+        "missing_flags": true,
+        "probability_events": true
+      },
+      "blend": 0.5,
+      "raw_mse": 9.878572416812569,
+      "stress_mse": 10.848020045280233,
+      "weighted_mse": 12.424875750675454
+    },
+    {
+      "fold": 2,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 3,
+        "energy_weight": 0.5,
+        "missing_flags": true,
+        "probability_events": true
+      },
+      "blend": 0.75,
+      "raw_mse": 9.936785402209484,
+      "stress_mse": 10.95048182731181,
+      "weighted_mse": 12.488967945712387
+    },
+    {
+      "fold": 2,
+      "config": {
+        "depth": 5,
+        "iterations": 1100,
+        "augment": 3,
+        "linear_mode": "notebook",
+        "distill": true,
+        "tree_blend": 0.2,
+        "imputer_weight": 1.5,
+        "energy_augment": 3,
+        "energy_weight": 0.5,
+        "missing_flags": true,
+        "probability_events": true
+      },
+      "blend": 1.0,
+      "raw_mse": 10.014997295642939,
+      "stress_mse": 11.083577061042076,
+      "weighted_mse": 12.591557164008906
+    }
+  ],
+  "configs": [
+    {
+      "depth": 5,
+      "iterations": 1100,
+      "augment": 3,
+      "linear_mode": "notebook",
+      "distill": true,
+      "tree_blend": 0.2,
+      "imputer_weight": 1.5,
+      "energy_augment": 0,
+      "energy_weight": 0.5,
+      "missing_flags": false,
+      "probability_events": false
+    },
+    {
+      "depth": 5,
+      "iterations": 1100,
+      "augment": 3,
+      "linear_mode": "notebook",
+      "distill": true,
+      "tree_blend": 0.2,
+      "imputer_weight": 1.5,
+      "energy_augment": 0,
+      "energy_weight": 1,
+      "missing_flags": false,
+      "probability_events": false
+    },
+    {
+      "depth": 5,
+      "iterations": 1100,
+      "augment": 3,
+      "linear_mode": "notebook",
+      "distill": true,
+      "tree_blend": 0.2,
+      "imputer_weight": 1.5,
+      "energy_augment": 1,
+      "energy_weight": 0.5,
+      "missing_flags": false,
+      "probability_events": false
+    },
+    {
+      "depth": 5,
+      "iterations": 1100,
+      "augment": 3,
+      "linear_mode": "notebook",
+      "distill": true,
+      "tree_blend": 0.2,
+      "imputer_weight": 1.5,
+      "energy_augment": 1,
+      "energy_weight": 1,
+      "missing_flags": true,
+      "probability_events": false
+    },
+    {
+      "depth": 5,
+      "iterations": 1100,
+      "augment": 3,
+      "linear_mode": "notebook",
+      "distill": true,
+      "tree_blend": 0.2,
+      "imputer_weight": 1.5,
+      "energy_augment": 1,
+      "energy_weight": 1.5,
+      "missing_flags": true,
+      "probability_events": false
+    },
+    {
+      "depth": 5,
+      "iterations": 1100,
+      "augment": 3,
+      "linear_mode": "notebook",
+      "distill": true,
+      "tree_blend": 0.2,
+      "imputer_weight": 1.5,
+      "energy_augment": 3,
+      "energy_weight": 1,
+      "missing_flags": true,
+      "probability_events": false
+    },
+    {
+      "depth": 5,
+      "iterations": 1100,
+      "augment": 3,
+      "linear_mode": "notebook",
+      "distill": true,
+      "tree_blend": 0.2,
+      "imputer_weight": 1.5,
+      "energy_augment": 3,
+      "energy_weight": 1,
+      "missing_flags": true,
+      "probability_events": true
+    },
+    {
+      "depth": 5,
+      "iterations": 1100,
+      "augment": 3,
+      "linear_mode": "notebook",
+      "distill": true,
+      "tree_blend": 0.2,
+      "imputer_weight": 1.5,
+      "energy_augment": 3,
+      "energy_weight": 0.5,
+      "missing_flags": true,
+      "probability_events": true
+    }
+  ],
+  "split_seed": 2028
+}
