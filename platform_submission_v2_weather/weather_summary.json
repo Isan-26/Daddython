@@ -1,0 +1,81 @@
+{
+  "correction_enabled": false,
+  "exported_alpha": 0.0,
+  "training_selected_alpha": 0.0,
+  "cv_gate_passed": false,
+  "baseline_natural_oof_rmse": 3.070753350622499,
+  "selected_natural_oof_rmse": 3.070753350622499,
+  "baseline_complete_oof_rmse": 3.0235778671257583,
+  "selected_complete_oof_rmse": 3.0235778671257583,
+  "fixed_weight_1_natural_rmse": 3.0736280898199237,
+  "fixed_weight_1_complete_rmse": 3.0266766735296478,
+  "features": [
+    "occupancy_x_temperature",
+    "occupancy_x_humidity",
+    "occupancy_x_cooling27"
+  ],
+  "ridge_penalty": 100.0,
+  "shrinkage_grid": [
+    0.0,
+    0.1,
+    0.2,
+    0.5,
+    1.0
+  ],
+  "gate": {
+    "minimum_complete_gain": 0.005,
+    "minimum_natural_gain": 0.004,
+    "minimum_folds_improved": 4,
+    "maximum_fold_regression": 0.005
+  },
+  "oof_provenance": {
+    "fold_seed": 0,
+    "folds": 5,
+    "sklearn_mlp_networks": 5,
+    "RealMLP_oof_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "RealMLP_deployed_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "all_deployed_seeds_available": false,
+    "source_files": {
+      "experiments/neural_net_cv.npz": "814a5941a0ebe7c76dbf61ecaaad5129a4e8d5df38816f309ea8a0c8aa204e13",
+      "experiments/dl_cv_realmlp.npz": "50f8a552d42b37c27f5043c6ed9fc7e4ae639f78c8e3e508fddbf497290836d9",
+      "experiments/dl_cv_realmlp_seed1.npz": "635ef3584a90d669dfbb436b39c9fe757a39f1a8953d905997c2731661c70fcc",
+      "experiments/dl_cv_realmlp_seed2.npz": "24d7b92e7c47ac7b0d049e2fdd3056c8feae36f47838856bd4f65e80c5b09168",
+      "experiments/dl_cv_realmlp_seed3.npz": "4cd6ece890d12073348b6c25a64304af87b20e3bf87ffb5b8d127792e352a448",
+      "experiments/dl_cv_realmlp_seed4.npz": "31caab6b8a8dcd62cc2c0dd841fbe60f522a8dca174deb00e58e9e294417cba9"
+    },
+    "notebook_sources": {
+      "neural_net_model.ipynb": "f69918a095af647c6aee2dea47465ef704decfdc65a2ec1eafb7f1df3744cb57",
+      "deep_learning_model.ipynb": "3a021550c530948a438e75ce002a36da2b0d3fd9714d3ac05657100ad82df5b7"
+    },
+    "limitation": "Existing base OOF caches have no original runtime/data-hash metadata. Truth ordering is checked and notebook fold/recipe provenance is audited. Correction CV is conditional on these fixed OOF predictions; it is not an end-to-end nested refit of all baseline models."
+  },
+  "missing_predictions_unchanged": true,
+  "candidate_matches_v2": true,
+  "v2_files_unchanged": true,
+  "deep_learning_models_retrained": 0,
+  "runtime_seconds": 103.50321495812386,
+  "source_hashes": {
+    "train": "85d3a3a23bf0f9b540c07362b89407a9764ca4e1666db9adac545d39c7653938",
+    "test": "cd2193344ee9bff92e71341bf3db126da8d6ddefac73c0a675a777103985cabb",
+    "v2": "ea6739f2dbdb98ccc2e440fa73ac8edd75aaf0ee2c66324af1ac3beaeae105ee",
+    "v2_notebook": "5d60be4ff9467c066477025e107dc7aa6440e5ae480a746a312233a80986818a"
+  },
+  "decision": "Zero correction: no qualifying gain and/or incomplete deployment-seed OOF coverage"
+}

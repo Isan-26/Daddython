@@ -1,0 +1,115 @@
+{
+  "accepted_upgrade": true,
+  "mode": "FULL",
+  "legacy_reproduction_max_difference": 0.0,
+  "random_state": 2026,
+  "evaluation": "nested outer CV; primary balanced = 50% natural rows + 50% uniform artificial patterns 1..15; no test-derived selection",
+  "baseline_natural_rmse": 3.0711771671381145,
+  "upgrade_natural_rmse": 3.068562285254872,
+  "baseline_mean_balanced_rmse": 4.034054116053033,
+  "upgrade_mean_balanced_rmse": 3.8366952693788905,
+  "baseline_fold_std": 0.11081345291208905,
+  "upgrade_fold_std": 0.09564167164679274,
+  "folds": [
+    {
+      "fold": 0,
+      "legacy_non_dl": 4.03510703210473,
+      "upgrade_non_dl": 3.8340808338302335
+    },
+    {
+      "fold": 1,
+      "legacy_non_dl": 3.9943637218277535,
+      "upgrade_non_dl": 3.787969782254183
+    },
+    {
+      "fold": 2,
+      "legacy_non_dl": 4.1445244124700515,
+      "upgrade_non_dl": 3.936823895753936
+    },
+    {
+      "fold": 3,
+      "legacy_non_dl": 3.8701564854955754,
+      "upgrade_non_dl": 3.7050805872996015
+    },
+    {
+      "fold": 4,
+      "legacy_non_dl": 4.126118928367056,
+      "upgrade_non_dl": 3.9195212477564976
+    }
+  ],
+  "final_feature_family": "core",
+  "imputation_weights": {
+    "temperature": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "humidity": [
+      0.4,
+      0.6,
+      0.0
+    ],
+    "occupancy": [
+      0.6,
+      0.4,
+      0.0
+    ],
+    "previous_usage": [
+      0.6,
+      0.4,
+      0.0
+    ]
+  },
+  "imputer_weight_order": [
+    "LightGBM",
+    "ExtraTrees",
+    "hierarchical"
+  ],
+  "two_pass_patterns": [
+    5,
+    6,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "learned_previous_missing_correction": {
+    "mode": "none",
+    "global": 0.0,
+    "by_type": {}
+  },
+  "fixed_dl_weights": {
+    "sklearn_mlp": 0.0435,
+    "RealMLP": 0.13,
+    "non_dl": 0.8265
+  },
+  "dl_oof_limitation": "Existing DL OOF uses different folds (seed 0), so no full-ensemble OOF score or DL weight tuning is claimed.",
+  "fallback_calibration_diagnostic_gain": 0.0009099741897760083,
+  "fallback_calibration_limitation": "Leave-fold-out calibration of existing base OOF predictions is secondary, not fully nested.",
+  "runtime_seconds": 555.8420623750426,
+  "data_hashes": {
+    "train": "85d3a3a23bf0f9b540c07362b89407a9764ca4e1666db9adac545d39c7653938",
+    "test": "cd2193344ee9bff92e71341bf3db126da8d6ddefac73c0a675a777103985cabb",
+    "legacy": "ea6739f2dbdb98ccc2e440fa73ac8edd75aaf0ee2c66324af1ac3beaeae105ee"
+  },
+  "config": {
+    "fast": false,
+    "folds": 5,
+    "seeds": [
+      527,
+      528,
+      529,
+      530,
+      531
+    ],
+    "estimators": 700,
+    "extra_trees": 80,
+    "random_state": 2026,
+    "source_hash": "78d549bef72d472588f8d27d40ffc363e2e2b457d4d5621afa87bab182716d83",
+    "sklearn": "1.5.2",
+    "lightgbm": "4.5.0",
+    "train_hash": "85d3a3a23bf0f9b540c07362b89407a9764ca4e1666db9adac545d39c7653938"
+  }
+}

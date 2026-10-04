@@ -1,0 +1,637 @@
+Matplotlib created a temporary cache directory at /var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/matplotlib-a72jty9q because the default path (/Users/ethanis/.matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/joblib/externals/loky/backend/context.py:136: UserWarning: Could not find the number of physical cores for the following reason:
+invalid literal for int() with base 10: ''
+Returning the number of logical cores instead. You can silence this warning by setting LOKY_MAX_CPU_COUNT to the number of cores you want to use.
+  warnings.warn(
+  File "/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/joblib/externals/loky/backend/context.py", line 276, in _count_physical_cores
+    cpu_count_physical = int(cpu_info)
+                         ^^^^^^^^^^^^^
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/datathon-v3-check-364pidud/run_notebook.py:411: RuntimeWarning: divide by zero encountered in matmul
+  pattern = raw_missing @ (1 << np.arange(4))
+/var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/datathon-v3-check-364pidud/run_notebook.py:411: RuntimeWarning: overflow encountered in matmul
+  pattern = raw_missing @ (1 << np.arange(4))
+/var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/datathon-v3-check-364pidud/run_notebook.py:411: RuntimeWarning: invalid value encountered in matmul
+  pattern = raw_missing @ (1 << np.arange(4))
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/datathon-v3-check-364pidud/run_notebook.py:411: RuntimeWarning: divide by zero encountered in matmul
+  pattern = raw_missing @ (1 << np.arange(4))
+/var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/datathon-v3-check-364pidud/run_notebook.py:411: RuntimeWarning: overflow encountered in matmul
+  pattern = raw_missing @ (1 << np.arange(4))
+/var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/datathon-v3-check-364pidud/run_notebook.py:411: RuntimeWarning: invalid value encountered in matmul
+  pattern = raw_missing @ (1 << np.arange(4))
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/datathon-v3-check-364pidud/run_notebook.py:271: RuntimeWarning: divide by zero encountered in matmul
+  h = h @ p[f'w{k}'] * p[f'f{k}'] + p[f'b{k}']
+/var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/datathon-v3-check-364pidud/run_notebook.py:271: RuntimeWarning: overflow encountered in matmul
+  h = h @ p[f'w{k}'] * p[f'f{k}'] + p[f'b{k}']
+/var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/datathon-v3-check-364pidud/run_notebook.py:271: RuntimeWarning: invalid value encountered in matmul
+  h = h @ p[f'w{k}'] * p[f'f{k}'] + p[f'b{k}']
+/var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/datathon-v3-check-364pidud/run_notebook.py:273: RuntimeWarning: divide by zero encountered in matmul
+  out = (h @ p['w4'] * p['f4'] + p['b4'])[:, 0]
+/var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/datathon-v3-check-364pidud/run_notebook.py:273: RuntimeWarning: overflow encountered in matmul
+  out = (h @ p['w4'] * p['f4'] + p['b4'])[:, 0]
+/var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/datathon-v3-check-364pidud/run_notebook.py:273: RuntimeWarning: invalid value encountered in matmul
+  out = (h @ p['w4'] * p['f4'] + p['b4'])[:, 0]
+wrote 3,000 predictions to /var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/datathon-v3-check-364pidud/ordered_output.csv
+Matplotlib created a temporary cache directory at /var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/matplotlib-ntij14oo because the default path (/Users/ethanis/.matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/joblib/externals/loky/backend/context.py:136: UserWarning: Could not find the number of physical cores for the following reason:
+invalid literal for int() with base 10: ''
+Returning the number of logical cores instead. You can silence this warning by setting LOKY_MAX_CPU_COUNT to the number of cores you want to use.
+  warnings.warn(
+  File "/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/joblib/externals/loky/backend/context.py", line 276, in _count_physical_cores
+    cpu_count_physical = int(cpu_info)
+                         ^^^^^^^^^^^^^
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/datathon-v3-check-364pidud/run_notebook.py:411: RuntimeWarning: divide by zero encountered in matmul
+  pattern = raw_missing @ (1 << np.arange(4))
+/var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/datathon-v3-check-364pidud/run_notebook.py:411: RuntimeWarning: overflow encountered in matmul
+  pattern = raw_missing @ (1 << np.arange(4))
+/var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/datathon-v3-check-364pidud/run_notebook.py:411: RuntimeWarning: invalid value encountered in matmul
+  pattern = raw_missing @ (1 << np.arange(4))
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/datathon-v3-check-364pidud/run_notebook.py:411: RuntimeWarning: divide by zero encountered in matmul
+  pattern = raw_missing @ (1 << np.arange(4))
+/var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/datathon-v3-check-364pidud/run_notebook.py:411: RuntimeWarning: overflow encountered in matmul
+  pattern = raw_missing @ (1 << np.arange(4))
+/var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/datathon-v3-check-364pidud/run_notebook.py:411: RuntimeWarning: invalid value encountered in matmul
+  pattern = raw_missing @ (1 << np.arange(4))
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/datathon-v3-check-364pidud/run_notebook.py:271: RuntimeWarning: divide by zero encountered in matmul
+  h = h @ p[f'w{k}'] * p[f'f{k}'] + p[f'b{k}']
+/var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/datathon-v3-check-364pidud/run_notebook.py:271: RuntimeWarning: overflow encountered in matmul
+  h = h @ p[f'w{k}'] * p[f'f{k}'] + p[f'b{k}']
+/var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/datathon-v3-check-364pidud/run_notebook.py:271: RuntimeWarning: invalid value encountered in matmul
+  h = h @ p[f'w{k}'] * p[f'f{k}'] + p[f'b{k}']
+/var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/datathon-v3-check-364pidud/run_notebook.py:273: RuntimeWarning: divide by zero encountered in matmul
+  out = (h @ p['w4'] * p['f4'] + p['b4'])[:, 0]
+/var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/datathon-v3-check-364pidud/run_notebook.py:273: RuntimeWarning: overflow encountered in matmul
+  out = (h @ p['w4'] * p['f4'] + p['b4'])[:, 0]
+/var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/datathon-v3-check-364pidud/run_notebook.py:273: RuntimeWarning: invalid value encountered in matmul
+  out = (h @ p['w4'] * p['f4'] + p['b4'])[:, 0]
+wrote 3,000 predictions to /var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/datathon-v3-check-364pidud/repeat_output.csv
+Matplotlib created a temporary cache directory at /var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/matplotlib-204prz_q because the default path (/Users/ethanis/.matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/joblib/externals/loky/backend/context.py:136: UserWarning: Could not find the number of physical cores for the following reason:
+invalid literal for int() with base 10: ''
+Returning the number of logical cores instead. You can silence this warning by setting LOKY_MAX_CPU_COUNT to the number of cores you want to use.
+  warnings.warn(
+  File "/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/joblib/externals/loky/backend/context.py", line 276, in _count_physical_cores
+    cpu_count_physical = int(cpu_info)
+                         ^^^^^^^^^^^^^
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/datathon-v3-check-364pidud/run_notebook.py:411: RuntimeWarning: divide by zero encountered in matmul
+  pattern = raw_missing @ (1 << np.arange(4))
+/var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/datathon-v3-check-364pidud/run_notebook.py:411: RuntimeWarning: overflow encountered in matmul
+  pattern = raw_missing @ (1 << np.arange(4))
+/var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/datathon-v3-check-364pidud/run_notebook.py:411: RuntimeWarning: invalid value encountered in matmul
+  pattern = raw_missing @ (1 << np.arange(4))
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/datathon-v3-check-364pidud/run_notebook.py:411: RuntimeWarning: divide by zero encountered in matmul
+  pattern = raw_missing @ (1 << np.arange(4))
+/var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/datathon-v3-check-364pidud/run_notebook.py:411: RuntimeWarning: overflow encountered in matmul
+  pattern = raw_missing @ (1 << np.arange(4))
+/var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/datathon-v3-check-364pidud/run_notebook.py:411: RuntimeWarning: invalid value encountered in matmul
+  pattern = raw_missing @ (1 << np.arange(4))
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/datathon-v3-check-364pidud/run_notebook.py:271: RuntimeWarning: divide by zero encountered in matmul
+  h = h @ p[f'w{k}'] * p[f'f{k}'] + p[f'b{k}']
+/var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/datathon-v3-check-364pidud/run_notebook.py:271: RuntimeWarning: overflow encountered in matmul
+  h = h @ p[f'w{k}'] * p[f'f{k}'] + p[f'b{k}']
+/var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/datathon-v3-check-364pidud/run_notebook.py:271: RuntimeWarning: invalid value encountered in matmul
+  h = h @ p[f'w{k}'] * p[f'f{k}'] + p[f'b{k}']
+/var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/datathon-v3-check-364pidud/run_notebook.py:273: RuntimeWarning: divide by zero encountered in matmul
+  out = (h @ p['w4'] * p['f4'] + p['b4'])[:, 0]
+/var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/datathon-v3-check-364pidud/run_notebook.py:273: RuntimeWarning: overflow encountered in matmul
+  out = (h @ p['w4'] * p['f4'] + p['b4'])[:, 0]
+/var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/datathon-v3-check-364pidud/run_notebook.py:273: RuntimeWarning: invalid value encountered in matmul
+  out = (h @ p['w4'] * p['f4'] + p['b4'])[:, 0]
+wrote 3,000 predictions to /var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/datathon-v3-check-364pidud/shuffled_output.csv
+Matplotlib created a temporary cache directory at /var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/matplotlib-v8rw8yzy because the default path (/Users/ethanis/.matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/joblib/externals/loky/backend/context.py:136: UserWarning: Could not find the number of physical cores for the following reason:
+invalid literal for int() with base 10: ''
+Returning the number of logical cores instead. You can silence this warning by setting LOKY_MAX_CPU_COUNT to the number of cores you want to use.
+  warnings.warn(
+  File "/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/joblib/externals/loky/backend/context.py", line 276, in _count_physical_cores
+    cpu_count_physical = int(cpu_info)
+                         ^^^^^^^^^^^^^
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/datathon-v3-check-364pidud/run_notebook.py:411: RuntimeWarning: divide by zero encountered in matmul
+  pattern = raw_missing @ (1 << np.arange(4))
+/var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/datathon-v3-check-364pidud/run_notebook.py:411: RuntimeWarning: overflow encountered in matmul
+  pattern = raw_missing @ (1 << np.arange(4))
+/var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/datathon-v3-check-364pidud/run_notebook.py:411: RuntimeWarning: invalid value encountered in matmul
+  pattern = raw_missing @ (1 << np.arange(4))
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/datathon-v3-check-364pidud/run_notebook.py:411: RuntimeWarning: divide by zero encountered in matmul
+  pattern = raw_missing @ (1 << np.arange(4))
+/var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/datathon-v3-check-364pidud/run_notebook.py:411: RuntimeWarning: overflow encountered in matmul
+  pattern = raw_missing @ (1 << np.arange(4))
+/var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/datathon-v3-check-364pidud/run_notebook.py:411: RuntimeWarning: invalid value encountered in matmul
+  pattern = raw_missing @ (1 << np.arange(4))
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_base.py:288: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/utils/extmath.py:205: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/datathon-v3-check-364pidud/run_notebook.py:271: RuntimeWarning: divide by zero encountered in matmul
+  h = h @ p[f'w{k}'] * p[f'f{k}'] + p[f'b{k}']
+/var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/datathon-v3-check-364pidud/run_notebook.py:271: RuntimeWarning: overflow encountered in matmul
+  h = h @ p[f'w{k}'] * p[f'f{k}'] + p[f'b{k}']
+/var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/datathon-v3-check-364pidud/run_notebook.py:271: RuntimeWarning: invalid value encountered in matmul
+  h = h @ p[f'w{k}'] * p[f'f{k}'] + p[f'b{k}']
+/var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/datathon-v3-check-364pidud/run_notebook.py:273: RuntimeWarning: divide by zero encountered in matmul
+  out = (h @ p['w4'] * p['f4'] + p['b4'])[:, 0]
+/var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/datathon-v3-check-364pidud/run_notebook.py:273: RuntimeWarning: overflow encountered in matmul
+  out = (h @ p['w4'] * p['f4'] + p['b4'])[:, 0]
+/var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/datathon-v3-check-364pidud/run_notebook.py:273: RuntimeWarning: invalid value encountered in matmul
+  out = (h @ p['w4'] * p['f4'] + p['b4'])[:, 0]
+wrote 320 predictions to /var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/datathon-v3-check-364pidud/all_patterns_output.csv
+PASS: isolated notebook, exact candidate match, repeatability, shuffled/id-free rows, all 16 patterns.

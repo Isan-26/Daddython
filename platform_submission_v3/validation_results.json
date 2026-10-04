@@ -1,0 +1,18 @@
+{
+  "unit_checks_passed": 5,
+  "isolated_notebook_check": "passed",
+  "candidate_exact_match": true,
+  "repeatability": true,
+  "shuffle_and_no_id": true,
+  "all_16_patterns": true,
+  "candidate_rows": 3000,
+  "candidate_columns": [
+    "id",
+    "prediction"
+  ],
+  "source_hash_matches_artifact": true,
+  "legacy_unchanged": true,
+  "wall_minutes_including_initial_attempt_and_solver_repair": 25.41791274944941,
+  "successful_retry_minutes_with_cache": 9.264034372917376,
+  "model_size_bytes": 111755682
+}

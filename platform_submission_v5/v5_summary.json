@@ -1,0 +1,29 @@
+{
+ "models_fitted": 0,
+ "seeds": [
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536
+ ],
+ "seed_527_identical_in_both_sources": 0.0,
+ "v4_reproduced_max_difference": 0.0,
+ "v2_reproduced_max_difference": 0.0,
+ "rms_change_vs_v4_complete_rows": 0.04321483118657655,
+ "rms_change_vs_v4_rows_with_blanks": 0.3260670586120949,
+ "max_abs_change_vs_v4": 2.095331999999999,
+ "model_pkl_mb": 197.328792,
+ "build_seconds": 82.43268084526062,
+ "source_hashes": {
+  "v4_model": "85241d1dde6eb5403f47f20f8cb90a83ab3052cf57566ce0eec8661be40af5b3",
+  "seed_source": "f3ea51941bdef85176caf00b93fd2215b7f8021cc7f7bc2d713eca09899c1a41",
+  "train": "85d3a3a23bf0f9b540c07362b89407a9764ca4e1666db9adac545d39c7653938",
+  "test": "cd2193344ee9bff92e71341bf3db126da8d6ddefac73c0a675a777103985cabb"
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "eng_weight": 0.15,
+ "networks": 10,
+ "feature_diff_vs_training": 0.0,
+ "numpy_vs_pytorch_ensemble_max_diff": 3.846664611728556e-06,
+ "v4_reproduced_max_diff": 0.0,
+ "v2_reproduced_max_diff": 0.0,
+ "rms_change_vs_v4_complete": 0.13151183972208133,
+ "rms_change_vs_v4_blank": 0.20283868093185192,
+ "mean_change_vs_v4_complete": 0.006282578475336339,
+ "mean_change_vs_v4_blank": 0.004267899451554096,
+ "max_abs_change_vs_v4": 0.9284290000000013,
+ "model_pkl_mb": 87.017257,
+ "build_seconds": 21.717460870742798
+}

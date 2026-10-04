@@ -1,0 +1,21 @@
+  File "/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/joblib/externals/loky/backend/context.py", line 276, in _count_physical_cores
+    cpu_count_physical = int(cpu_info)
+                         ^^^^^^^^^^^^^
+wrote 3,000 predictions to /var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/v2-weather-check-2_713qhs/ordered_output.csv
+  File "/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/joblib/externals/loky/backend/context.py", line 276, in _count_physical_cores
+    cpu_count_physical = int(cpu_info)
+                         ^^^^^^^^^^^^^
+wrote 3,000 predictions to /var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/v2-weather-check-2_713qhs/repeat_output.csv
+  File "/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/joblib/externals/loky/backend/context.py", line 276, in _count_physical_cores
+    cpu_count_physical = int(cpu_info)
+                         ^^^^^^^^^^^^^
+wrote 3,000 predictions to /var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/v2-weather-check-2_713qhs/shuffled_output.csv
+  File "/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/joblib/externals/loky/backend/context.py", line 276, in _count_physical_cores
+    cpu_count_physical = int(cpu_info)
+                         ^^^^^^^^^^^^^
+wrote 320 predictions to /var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/v2-weather-check-2_713qhs/all_patterns_output.csv
+Matplotlib created a temporary cache directory at /var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/matplotlib-2mzkq9fh because the default path (/Users/ethanis/.matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+  File "/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/joblib/externals/loky/backend/context.py", line 276, in _count_physical_cores
+    cpu_count_physical = int(cpu_info)
+                         ^^^^^^^^^^^^^
+PASS: isolated notebook; exact candidate; repeated/shuffled/id-free input; all 16 patterns; missing predictions equal v2.

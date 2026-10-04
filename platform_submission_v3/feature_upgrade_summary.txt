@@ -1,0 +1,161 @@
+Platform submission v3: training-only upgrade
+
+{
+  "accepted_upgrade": true,
+  "mode": "FULL",
+  "legacy_reproduction_max_difference": 0.0,
+  "random_state": 2026,
+  "evaluation": "nested outer CV; primary balanced = 50% natural rows + 50% uniform artificial patterns 1..15; no test-derived selection",
+  "baseline_natural_rmse": 3.0711771671381145,
+  "upgrade_natural_rmse": 3.068562285254872,
+  "baseline_mean_balanced_rmse": 4.034054116053033,
+  "upgrade_mean_balanced_rmse": 3.8366952693788905,
+  "baseline_fold_std": 0.11081345291208905,
+  "upgrade_fold_std": 0.09564167164679274,
+  "folds": [
+    {
+      "fold": 0,
+      "legacy_non_dl": 4.03510703210473,
+      "upgrade_non_dl": 3.8340808338302335
+    },
+    {
+      "fold": 1,
+      "legacy_non_dl": 3.9943637218277535,
+      "upgrade_non_dl": 3.787969782254183
+    },
+    {
+      "fold": 2,
+      "legacy_non_dl": 4.1445244124700515,
+      "upgrade_non_dl": 3.936823895753936
+    },
+    {
+      "fold": 3,
+      "legacy_non_dl": 3.8701564854955754,
+      "upgrade_non_dl": 3.7050805872996015
+    },
+    {
+      "fold": 4,
+      "legacy_non_dl": 4.126118928367056,
+      "upgrade_non_dl": 3.9195212477564976
+    }
+  ],
+  "final_feature_family": "core",
+  "imputation_weights": {
+    "temperature": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "humidity": [
+      0.4,
+      0.6,
+      0.0
+    ],
+    "occupancy": [
+      0.6,
+      0.4,
+      0.0
+    ],
+    "previous_usage": [
+      0.6,
+      0.4,
+      0.0
+    ]
+  },
+  "imputer_weight_order": [
+    "LightGBM",
+    "ExtraTrees",
+    "hierarchical"
+  ],
+  "two_pass_patterns": [
+    5,
+    6,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "learned_previous_missing_correction": {
+    "mode": "none",
+    "global": 0.0,
+    "by_type": {}
+  },
+  "fixed_dl_weights": {
+    "sklearn_mlp": 0.0435,
+    "RealMLP": 0.13,
+    "non_dl": 0.8265
+  },
+  "dl_oof_limitation": "Existing DL OOF uses different folds (seed 0), so no full-ensemble OOF score or DL weight tuning is claimed.",
+  "fallback_calibration_diagnostic_gain": 0.0009099741897760083,
+  "fallback_calibration_limitation": "Leave-fold-out calibration of existing base OOF predictions is secondary, not fully nested.",
+  "runtime_seconds": 555.8420623750426,
+  "data_hashes": {
+    "train": "85d3a3a23bf0f9b540c07362b89407a9764ca4e1666db9adac545d39c7653938",
+    "test": "cd2193344ee9bff92e71341bf3db126da8d6ddefac73c0a675a777103985cabb",
+    "legacy": "ea6739f2dbdb98ccc2e440fa73ac8edd75aaf0ee2c66324af1ac3beaeae105ee"
+  },
+  "config": {
+    "fast": false,
+    "folds": 5,
+    "seeds": [
+      527,
+      528,
+      529,
+      530,
+      531
+    ],
+    "estimators": 700,
+    "extra_trees": 80,
+    "random_state": 2026,
+    "source_hash": "78d549bef72d472588f8d27d40ffc363e2e2b457d4d5621afa87bab182716d83",
+    "sklearn": "1.5.2",
+    "lightgbm": "4.5.0",
+    "train_hash": "85d3a3a23bf0f9b540c07362b89407a9764ca4e1666db9adac545d39c7653938"
+  }
+}
+
+Missing-pattern comparison
+ pattern  row_count  baseline_rmse  upgraded_rmse  direct_rmse  imputed_rmse  two_pass_rmse chosen_strategy                  chosen_weights
+       0       7537       3.029269       3.022511     3.033224      3.041520       3.041520        one_pass {"direct": 0.5, "imputed": 0.5}
+       1       7651       3.376009       3.376446     3.433459      3.386836       3.386836        one_pass {"direct": 0.2, "imputed": 0.8}
+       2       7648       3.033292       3.024843     3.035658      3.047534       3.047534        one_pass {"direct": 0.6, "imputed": 0.4}
+       3       7540       3.468825       3.446472     3.471520      3.466185       3.473317        one_pass {"direct": 0.2, "imputed": 0.8}
+       4       7654       3.720371       3.673292     3.904103      3.667541       3.667541        one_pass {"direct": 0.1, "imputed": 0.9}
+       5       7538       4.010845       3.897803     4.143337      3.913800       3.896421        two_pass {"direct": 0.1, "imputed": 0.9}
+       6       7540       3.732292       3.649162     3.856476      3.653059       3.647723        two_pass {"direct": 0.0, "imputed": 1.0}
+       7       7537       4.089746       3.980481     4.123553      3.986578       3.996194        one_pass {"direct": 0.2, "imputed": 0.8}
+       8       7647       3.911610       3.880290     3.920077      3.946194       3.946194        one_pass {"direct": 0.6, "imputed": 0.4}
+       9       7538       4.680509       4.610208     4.688355      4.680047       4.642498        two_pass {"direct": 0.4, "imputed": 0.6}
+      10       7539       3.935354       3.878970     3.912060      3.923814       3.918075        two_pass {"direct": 0.6, "imputed": 0.4}
+      11       7537       4.961699       4.754503     4.782101      4.819714       4.811406        two_pass {"direct": 0.6, "imputed": 0.4}
+      12       7538       6.176864       5.429452     5.599530      5.514438       5.487823        two_pass {"direct": 0.4, "imputed": 0.6}
+      13       7537       6.949311       6.150239     6.302913      6.256627       6.226791        two_pass {"direct": 0.4, "imputed": 0.6}
+      14       7537       6.161137       5.436829     5.565571      5.518380       5.510948        two_pass {"direct": 0.4, "imputed": 0.6}
+      15       7537       7.224073       6.294295     6.394019      6.338657       6.366415        one_pass {"direct": 0.4, "imputed": 0.6}
+
+Outer validation reconstruction RMSE
+feature         imputer          
+humidity        ensemble              4.536330
+                extratrees            4.557123
+                hierarchical          5.005839
+                lightgbm              4.582888
+                two_pass_lightgbm     4.588742
+occupancy       ensemble             25.233462
+                extratrees           25.593183
+                hierarchical         32.616830
+                lightgbm             25.751325
+                two_pass_lightgbm    25.444250
+previous_usage  ensemble              8.208452
+                extratrees            8.348398
+                hierarchical          9.696531
+                lightgbm              8.324012
+                two_pass_lightgbm     8.230803
+temperature     ensemble              0.935432
+                extratrees            0.981288
+                hierarchical          1.273919
+                lightgbm              0.935432
+                two_pass_lightgbm     0.937045
+
+OOF scores cover only the non-DL branch. No leaderboard scores were used.

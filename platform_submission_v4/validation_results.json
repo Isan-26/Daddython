@@ -1,0 +1,14 @@
+{
+  "isolated_notebook": true,
+  "candidate_exact": true,
+  "repeat_exact": true,
+  "shuffle_exact": true,
+  "ids_ignored": true,
+  "separate_batches_exact": true,
+  "all_16_patterns_finite": true,
+  "complete_rows_equal_v2": true,
+  "fallback_all_patterns_equal_v2": true,
+  "fallback_csv_equal_original_v2": true,
+  "conservative_csv_exact": true,
+  "new_energy_rmse_claimed": false
+}

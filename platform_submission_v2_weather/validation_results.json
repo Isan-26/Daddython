@@ -1,0 +1,10 @@
+{
+  "unit_checks_passed": 6,
+  "isolated_notebook_passed": true,
+  "repeat_and_shuffle_exact": true,
+  "all_16_patterns_passed": true,
+  "candidate_exactly_v2": true,
+  "original_v2_files_unchanged": true,
+  "correction_weight": 0.0,
+  "model_size_bytes": 77610977
+}

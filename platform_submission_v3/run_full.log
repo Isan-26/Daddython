@@ -1,0 +1,171 @@
+Matplotlib created a temporary cache directory at /var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/matplotlib-tfbc3e6z because the default path (/Users/ethanis/.matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+  File "/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/joblib/externals/loky/backend/context.py", line 276, in _count_physical_cores
+    cpu_count_physical = int(cpu_info)
+                         ^^^^^^^^^^^^^
+Legacy reproduced: maximum prediction difference 0.00e+00; NN inputs 40, RealMLP numeric inputs 15
+OUTER FOLD 1/5
+  same-fold legacy baseline (original v2 recipe)
+  cross-fit imputers 1/5: 5,120 train rows
+  cross-fit imputers 2/5: 5,120 train rows
+  cross-fit imputers 3/5: 5,120 train rows
+  cross-fit imputers 4/5: 5,120 train rows
+  cross-fit imputers 5/5: 5,120 train rows
+  cheap energy ablations 1/5
+  cheap energy ablations 2/5
+  cheap energy ablations 3/5
+  cheap energy ablations 4/5
+  cheap energy ablations 5/5
+  final cheap energy and pattern models
+  all-training multi-seed imputers
+  natural RMSE baseline 3.07779 -> 3.07312; balanced 4.03511 -> 3.83408; selected core
+OUTER FOLD 2/5
+  same-fold legacy baseline (original v2 recipe)
+  cross-fit imputers 1/5: 5,120 train rows
+  cross-fit imputers 2/5: 5,120 train rows
+  cross-fit imputers 3/5: 5,120 train rows
+  cross-fit imputers 4/5: 5,120 train rows
+  cross-fit imputers 5/5: 5,120 train rows
+  cheap energy ablations 1/5
+  cheap energy ablations 2/5
+  cheap energy ablations 3/5
+  cheap energy ablations 4/5
+  cheap energy ablations 5/5
+  final cheap energy and pattern models
+  all-training multi-seed imputers
+  natural RMSE baseline 3.03108 -> 3.03647; balanced 3.99436 -> 3.78797; selected core
+OUTER FOLD 3/5
+  same-fold legacy baseline (original v2 recipe)
+  cross-fit imputers 1/5: 5,120 train rows
+  cross-fit imputers 2/5: 5,120 train rows
+  cross-fit imputers 3/5: 5,120 train rows
+  cross-fit imputers 4/5: 5,120 train rows
+  cross-fit imputers 5/5: 5,120 train rows
+  cheap energy ablations 1/5
+  cheap energy ablations 2/5
+  cheap energy ablations 3/5
+  cheap energy ablations 4/5
+  cheap energy ablations 5/5
+Traceback (most recent call last):
+  File "/Users/ethanis/Downloads/Track 1 Dataset/platform_submission_v3/feature_imputation_upgrade.py", line 617, in <module>
+    main()
+  File "/Users/ethanis/Downloads/Track 1 Dataset/platform_submission_v3/feature_imputation_upgrade.py", line 487, in main
+    selection = cached(f'selection_fold{fold}', fit, config, lambda: select_upgrade(fit, data, config))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ethanis/Downloads/Track 1 Dataset/platform_submission_v3/feature_imputation_upgrade.py", line 64, in cached
+    value = build()
+            ^^^^^^^
+  File "/Users/ethanis/Downloads/Track 1 Dataset/platform_submission_v3/feature_imputation_upgrade.py", line 487, in <lambda>
+    selection = cached(f'selection_fold{fold}', fit, config, lambda: select_upgrade(fit, data, config))
+                                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ethanis/Downloads/Track 1 Dataset/platform_submission_v3/feature_imputation_upgrade.py", line 301, in select_upgrade
+    parts = fit_energy(training, slice_aux(one, positions), rows.iloc[a], FAMILIES, sw)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ethanis/Downloads/Track 1 Dataset/platform_submission_v3/feature_imputation_upgrade.py", line 228, in fit_energy
+    parts['ridge'][family] = make_pipeline(StandardScaler(), RidgeCV(alphas=np.logspace(-3, 3, 13))).fit(
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/base.py", line 1473, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/pipeline.py", line 473, in fit
+    self._final_estimator.fit(Xt, y, **last_step_params["fit"])
+  File "/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/base.py", line 1473, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_ridge.py", line 2672, in fit
+    super().fit(X, y, sample_weight=sample_weight, **params)
+  File "/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_ridge.py", line 2403, in fit
+    estimator.fit(
+  File "/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_ridge.py", line 2134, in fit
+    X_mean, *decomposition = decompose(X, y, sqrt_sw)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/sklearn/linear_model/_ridge.py", line 2034, in _svd_decompose_design_matrix
+    U, singvals, _ = linalg.svd(X, full_matrices=0)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/scipy/linalg/_decomp_svd.py", line 164, in svd
+    raise LinAlgError("SVD did not converge")
+numpy.linalg.LinAlgError: SVD did not converge
+Matplotlib created a temporary cache directory at /var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/matplotlib-g8nl2jwo because the default path (/Users/ethanis/.matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+  File "/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/joblib/externals/loky/backend/context.py", line 276, in _count_physical_cores
+    cpu_count_physical = int(cpu_info)
+                         ^^^^^^^^^^^^^
+Legacy reproduced: maximum prediction difference 0.00e+00; NN inputs 40, RealMLP numeric inputs 15
+OUTER FOLD 1/5
+  cache: baseline_fold0
+  cache: crossfit_fold0
+  cache: selection_fold0
+  cache: outer_predictions_fold0
+  natural RMSE baseline 3.07779 -> 3.07312; balanced 4.03511 -> 3.83408; selected core
+OUTER FOLD 2/5
+  cache: baseline_fold1
+  cache: crossfit_fold1
+  cache: selection_fold1
+  cache: outer_predictions_fold1
+  natural RMSE baseline 3.03108 -> 3.03647; balanced 3.99436 -> 3.78797; selected core
+OUTER FOLD 3/5
+  cache: baseline_fold2
+  cache: crossfit_fold2
+  cheap energy ablations 1/5
+  cheap energy ablations 2/5
+  cheap energy ablations 3/5
+  cheap energy ablations 4/5
+  cheap energy ablations 5/5
+  retrying Ridge SVD with LAPACK gesvd
+  final cheap energy and pattern models
+  all-training multi-seed imputers
+  natural RMSE baseline 3.17266 -> 3.17179; balanced 4.14452 -> 3.93682; selected core
+OUTER FOLD 4/5
+  same-fold legacy baseline (original v2 recipe)
+  cross-fit imputers 1/5: 5,120 train rows
+  cross-fit imputers 2/5: 5,120 train rows
+  cross-fit imputers 3/5: 5,120 train rows
+  cross-fit imputers 4/5: 5,120 train rows
+  cross-fit imputers 5/5: 5,120 train rows
+  cheap energy ablations 1/5
+  cheap energy ablations 2/5
+  cheap energy ablations 3/5
+  cheap energy ablations 4/5
+  cheap energy ablations 5/5
+  final cheap energy and pattern models
+  all-training multi-seed imputers
+  natural RMSE baseline 2.91785 -> 2.90292; balanced 3.87016 -> 3.70508; selected core
+OUTER FOLD 5/5
+  same-fold legacy baseline (original v2 recipe)
+  cross-fit imputers 1/5: 5,120 train rows
+  cross-fit imputers 2/5: 5,120 train rows
+  cross-fit imputers 3/5: 5,120 train rows
+  cross-fit imputers 4/5: 5,120 train rows
+  cross-fit imputers 5/5: 5,120 train rows
+  cheap energy ablations 1/5
+  cheap energy ablations 2/5
+  cheap energy ablations 3/5
+  cheap energy ablations 4/5
+  cheap energy ablations 5/5
+  final cheap energy and pattern models
+  all-training multi-seed imputers
+  natural RMSE baseline 3.14973 -> 3.15103; balanced 4.12612 -> 3.91952; selected core
+Nested CV acceptance: True; mean balanced gain 0.19736; natural gain 0.00276
+  cross-fit imputers 1/5: 6,400 train rows
+  cross-fit imputers 2/5: 6,400 train rows
+  cross-fit imputers 3/5: 6,400 train rows
+  cross-fit imputers 4/5: 6,400 train rows
+  cross-fit imputers 5/5: 6,400 train rows
+  cheap energy ablations 1/5
+  cheap energy ablations 2/5
+  cheap energy ablations 3/5
+  cheap energy ablations 4/5
+  cheap energy ablations 5/5
+  final cheap energy and pattern models
+  all-training multi-seed imputers
+      id  prediction
+EC010541   71.946631
+EC009755   66.135744
+EC008886   55.928994
+EC009317   64.738617
+EC008958   21.449130
+EC008911   51.420313
+EC009722   80.632844
+EC008575   50.598200
+EC009166   71.500921
+EC008930   49.784921
+Prediction min=14.178898, max=132.662023, mean=54.628279, std=20.249157
+Finished in 9.3 minutes; upload prediction_notebook.ipynb + feature_upgrade_model.pkl

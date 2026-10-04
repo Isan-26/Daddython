@@ -1,0 +1,116 @@
+{
+  "status": "implemented; experimental inference; no new OOF energy RMSE",
+  "models_retrained": 0,
+  "trained_state_hash_before": "4d005756ec3bfeb62334ed983875103f",
+  "trained_state_hash_after": "4d005756ec3bfeb62334ed983875103f",
+  "original_files_unchanged": true,
+  "source_hashes": {
+    "v2_model": "ea6739f2dbdb98ccc2e440fa73ac8edd75aaf0ee2c66324af1ac3beaeae105ee",
+    "v2_notebook": "5d60be4ff9467c066477025e107dc7aa6440e5ae480a746a312233a80986818a",
+    "train": "85d3a3a23bf0f9b540c07362b89407a9764ca4e1666db9adac545d39c7653938",
+    "test": "cd2193344ee9bff92e71341bf3db126da8d6ddefac73c0a675a777103985cabb"
+  },
+  "sampling_config": {
+    "v2_model": "ea6739f2dbdb98ccc2e440fa73ac8edd75aaf0ee2c66324af1ac3beaeae105ee",
+    "train": "85d3a3a23bf0f9b540c07362b89407a9764ca4e1666db9adac545d39c7653938",
+    "neighbors": 64,
+    "spread": 1.0,
+    "builder": "5435c3fcfe08c4b3f260d231868e561260fe4eeeb011b0277ba8010017a6cedd",
+    "runtime": "fd0fb26d520fecd9e83a21b87ec256995405108c02ef534eefa75b1f4fc6864f"
+  },
+  "versions": {
+    "v4_uncertainty": {
+      "alpha": 1.0,
+      "samples": 64,
+      "seed": 2026
+    },
+    "v4_conservative": {
+      "alpha": 0.25,
+      "samples": 64,
+      "seed": 2026
+    },
+    "v2_fallback": {
+      "alpha": 0.0,
+      "samples": 64,
+      "seed": 2026
+    }
+  },
+  "rows": 3000,
+  "complete_rows": 2453,
+  "missing_rows": 547,
+  "imputed_energy_branch_final_weight": 0.619875,
+  "exact_v2_csv_max_difference": 0.0,
+  "complete_row_max_change": 0.0,
+  "missing_row_rms_change": 0.07999249551537868,
+  "missing_row_max_change": 0.45496027105271314,
+  "sampling_diagnostics": [
+    {
+      "column": "temperature",
+      "masked_rows": 315,
+      "point_reconstruction_rmse": 0.9463881371202401,
+      "empirical_90pct_interval_coverage": 0.8412698412698413,
+      "mean_interval_width": 2.568910801964459,
+      "sampling_mean_max_abs_error": 7.105427357601002e-15,
+      "evaluation": "auxiliary in-sample imputer diagnostic; self donor excluded; no energy RMSE"
+    },
+    {
+      "column": "humidity",
+      "masked_rows": 314,
+      "point_reconstruction_rmse": 4.5007727719340656,
+      "empirical_90pct_interval_coverage": 0.8471337579617835,
+      "mean_interval_width": 13.009247732384773,
+      "sampling_mean_max_abs_error": 1.4210854715202004e-14,
+      "evaluation": "auxiliary in-sample imputer diagnostic; self donor excluded; no energy RMSE"
+    },
+    {
+      "column": "occupancy",
+      "masked_rows": 337,
+      "point_reconstruction_rmse": 27.61271081083693,
+      "empirical_90pct_interval_coverage": 0.7329376854599406,
+      "mean_interval_width": 52.88648797507717,
+      "sampling_mean_max_abs_error": 5.684341886080802e-14,
+      "evaluation": "auxiliary in-sample imputer diagnostic; self donor excluded; no energy RMSE"
+    },
+    {
+      "column": "previous_usage",
+      "masked_rows": 347,
+      "point_reconstruction_rmse": 8.802441119854922,
+      "empirical_90pct_interval_coverage": 0.8530259365994236,
+      "mean_interval_width": 23.442517150134503,
+      "sampling_mean_max_abs_error": 1.4210854715202004e-14,
+      "evaluation": "auxiliary in-sample imputer diagnostic; self donor excluded; no energy RMSE"
+    }
+  ],
+  "sampling_convergence": [
+    {
+      "samples": 32,
+      "rows": 150,
+      "rms_final_prediction_difference_vs_128": 0.021564038537358332,
+      "max_abs_final_prediction_difference_vs_128": 0.15652672656109703,
+      "evaluation": "Monte Carlo stability only; no labels or configuration selection"
+    },
+    {
+      "samples": 64,
+      "rows": 150,
+      "rms_final_prediction_difference_vs_128": 0.011940505515440406,
+      "max_abs_final_prediction_difference_vs_128": 0.05226926946282387,
+      "evaluation": "Monte Carlo stability only; no labels or configuration selection"
+    },
+    {
+      "samples": 128,
+      "rows": 150,
+      "rms_final_prediction_difference_vs_128": 0.0,
+      "max_abs_final_prediction_difference_vs_128": 0.0,
+      "evaluation": "Monte Carlo stability only; no labels or configuration selection"
+    }
+  ],
+  "energy_labels_used_for_sampling_or_selection": false,
+  "limitations": [
+    "Frozen energy models were trained on all original training labels; no honest new OOF comparison is possible without saved fold models or refitting.",
+    "Uncertainty uses in-sample auxiliary residuals and a symmetric donor approximation; it is not a calibrated posterior and can underestimate or misrepresent uncertainty.",
+    "Only the LightGBM-imputed energy branch is marginalized. Neural inputs/predictions, direct experts, MissForest branch, weights and original missing-previous +0.8 remain unchanged.",
+    "The 25% configuration is a fixed optional shrinkage, not an empirically selected improvement. The main 100% averaging configuration is experimental.",
+    "Prediction consistency and finite outputs do not establish a lower leaderboard RMSE."
+  ],
+  "wall_seconds": 15.583048820495605
+}

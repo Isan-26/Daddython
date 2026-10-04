@@ -1,0 +1,34 @@
+# Regression competition handoff
+
+Objective: minimize RMSE for energy_usage. Repository: https://github.com/Isan-26/Daddython. Local workspace: /Users/ethanis/Downloads/Track 1 Dataset. There are 8,000 training and 3,000 test rows. Inputs include building_id, building_type, hour, day_of_week, month, temperature, humidity, occupancy and previous_usage. The last four can be missing. Incomplete rows: 5.79% of training versus 18.23% of test. Real missingness may be informative; random masking does not necessarily reproduce it.
+
+Constraints: preserve original v2, use isolated submission folders, prefer minimal changes, and do not retrain deep-learning models. For the latest v4 experiment, ALL existing models, imputers and scalers were frozen. No further experiment is authorized by this summary alone.
+
+Baseline platform_submission_v2:
+- Final prediction = 0.8265 × non-DL + 0.0435 × sklearn MLP + 0.13 × RealMLP + 0.8 when previous_usage is missing.
+- Non-DL = 0.0625 × MissForest/Ridge/HGB + 0.1875 × direct missing-pattern Ridge/HGB experts + 0.75 × LightGBM-imputed Ridge/HGB.
+- Five sklearn neural networks and ten RealMLP seeds are averaged. LightGBM imputer seed is 527. Existing cyclic, building/type interactions, typical-value deviations and heat/rain indicators are already present.
+- Reported public RMSE: 3.24883. Important provenance issue: the historical root candidate_dl13_prevfix.csv differs slightly from saved platform v2 inference (RMS prediction difference approximately 0.0367). Exact fallback comparisons use platform_submission_v2/platform_dl13_prevfix.csv. Do not silently assume every historical v2 CSV is identical.
+
+Experiments performed in this sequence:
+
+1. Broad feature/imputation upgrade, platform_submission_v3.
+   Used nested 5-outer/5-inner-fold CV, shuffle seed 2026, true OOF imputations, five LightGBM seeds, ExtraTrees and smoothed hierarchy, missing flags/count/bitmask, pattern-specific direct/imputed blends and optional two-pass filling. Tested uncertainty, weekday, weather, deviations, physical interactions and combined feature families; only the core was retained. Most cheap models were retrained, and the +0.8 correction was replaced with zero. Deep-learning models stayed frozen, but this was a large pipeline change, not just added features.
+   Natural non-DL OOF RMSE: 3.071177 → 3.068562 (only 0.002615 better). Artificial stress RMSE: 4.034054 → 3.836695. The acceptance objective was 50% natural rows plus 50% uniformly weighted artificial missing patterns. It validated only the non-DL branch, not the full deployed ensemble. User-submitted candidate_feature_upgrade.csv scored 3.34957 publicly, substantially worse. Likely issues include validation/test missingness mismatch and changing several components together, especially removing +0.8. Exact cause is unknown without test labels. OOF imputation was already tried here; do not present it as a new idea.
+
+2. Small additive weather correction, platform_submission_v2_weather.
+   Three features: occupancy×temperature, occupancy×humidity, occupancy×max(temperature−27,0). A separate Ridge with penalty 100 learned approximate full-v2 OOF residuals and could affect complete rows only. All deployed v2 objects, weights and +0.8 stayed frozen. Temporary cheap baseline models were fitted for validation; no neural model was retrained.
+   Correction weights 0, 0.1, 0.2, 0.5 and 1 were tested. All nonzero weights worsened the OOF proxy (3.070753 baseline versus 3.071004 at 0.1 and 3.073628 at 1). Selected weight = 0; exported CSV equals saved platform v2 exactly. Validation was approximate: matching seed-0 OOF exists for only five of ten deployed RealMLP seeds, and calibration was conditional on existing OOF tables rather than fully nested refitting.
+
+3. Frozen-model postprocessing checks.
+   Global bias, complete-row bias, missing-previous bias and coarse neural/RealMLP blend choices showed no reliable held-out benefit. Leave-fold-out blend selection worsened the same proxy from 3.070753 to approximately 3.071037. No resulting model changes were deployed.
+
+4. Multiple-imputation inference, platform_submission_v4.
+   ALL existing models remain frozen. Build joint auxiliary residual tables using frozen v2 imputers and 7,537 complete training-input donors; energy labels and leaderboard scores are excluded. Choose 64 nearby donors using building/calendar/observed inputs. Generate 64 centered positive/negative paired fills, bounded symmetrically around original imputed means. Average ENERGY PREDICTIONS after each fill through the existing imputed Ridge/HGB branch; do not merely average fills. Only this branch is marginalized, with unchanged final weight 0.619875. Neural predictions, direct experts, MissForest, raw missingness routing and +0.8 remain unchanged.
+   All 2,453 complete test rows are identical to v2. Changes on 547 incomplete rows have RMS 0.07999 and maximum absolute change 0.45496; these are prediction changes, not accuracy gains. No models were fitted; build took approximately 15.6 seconds. Eight unit tests and isolated notebook checks passed, including shuffled/batched/id-free inference and all 16 missing patterns. Original-file and full trained-state hashes match.
+   User-submitted candidate_v4_uncertainty.csv scored 3.24754 publicly: 0.00129 (approximately 0.04%) better than the reported v2 score. This is the best reported public candidate in this sequence; private improvement is unproven.
+   Limitations: uncertainty uses in-sample auxiliary residuals and symmetric bootstrapping, not a calibrated posterior. Diagnostic nominal-90% coverage was only approximately 73% for occupancy. No honest new full-ensemble OOF energy RMSE is available because deployed energy models saw all training labels and matching fold model objects are unavailable under the no-retraining constraint.
+
+Current v4 artifacts: prediction_notebook.ipynb + model.pkl (approximately 79.52 MB), candidate_v4_uncertainty.csv (default 100% averaging), candidate_v4_conservative.csv (fixed 25% of the change, NOT a validated winner), candidate_v2_fallback.csv (exact saved platform v2). Notebook VERSION selects v4_uncertainty, v4_conservative or v2_fallback. No conservative public result has been reported. CSVs use id,prediction; platform notebook output uses one prediction column via DATATHON_INPUT_PATH/DATATHON_OUTPUT_PATH.
+
+Model-compatible Python: /Users/ethanis/Downloads/datathon-platform-env/bin/python, Python 3.12, sklearn 1.5.2 and LightGBM 4.5.0. Do not casually switch to the workspace Python 3.14 environment. Detailed reports are in each experiment folder. Existing older repo experiments already include CatBoost, masking, conditional imputers and ensembles; do not assume these are untried. Avoid leaderboard-based parameter fishing, expected-gain promises or claims that competing teams are overfitting.

@@ -1,0 +1,21 @@
+Matplotlib created a temporary cache directory at /var/folders/x3/3msgxfn15qb4pzf0fqrym6nr0000gn/T/matplotlib-r1gfirul because the default path (/Users/ethanis/.matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+  File "/Users/ethanis/Downloads/datathon-platform-env/lib/python3.12/site-packages/joblib/externals/loky/backend/context.py", line 276, in _count_physical_cores
+    cpu_count_physical = int(cpu_info)
+                         ^^^^^^^^^^^^^
+V2 reproduced exactly. All original experts, preprocessing, weights and +0.8 shift are frozen.
+Reusing saved neural OOF predictions: 5 sklearn networks, 5 RealMLP seeds
+Legacy non-DL validation fold 1/5; no neural-network training
+Legacy non-DL validation fold 2/5; no neural-network training
+Legacy non-DL validation fold 3/5; no neural-network training
+Legacy non-DL validation fold 4/5; no neural-network training
+Legacy non-DL validation fold 5/5; no neural-network training
+{
+  "correction_enabled": false,
+  "exported_alpha": 0.0,
+  "baseline_natural_oof_rmse": 3.070753350622499,
+  "selected_natural_oof_rmse": 3.070753350622499,
+  "fixed_weight_1_natural_rmse": 3.0736280898199237,
+  "candidate_matches_v2": true,
+  "runtime_seconds": 103.50321495812386
+}
+Finished. Upload prediction_notebook.ipynb + model.pkl only if a new candidate is warranted.

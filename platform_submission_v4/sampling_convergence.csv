@@ -1,0 +1,4 @@
+samples,rows,rms_final_prediction_difference_vs_128,max_abs_final_prediction_difference_vs_128,evaluation
+32,150,0.021564038537358332,0.15652672656109703,Monte Carlo stability only; no labels or configuration selection
+64,150,0.011940505515440406,0.05226926946282387,Monte Carlo stability only; no labels or configuration selection
+128,150,0.0,0.0,Monte Carlo stability only; no labels or configuration selection

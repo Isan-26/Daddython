@@ -2,3 +2,5 @@
 platform_submission/model.pkl
 __pycache__/
 .ipynb_checkpoints/
+# over GitHub's 100 MB file limit (v3 scored 3.34957 and is not used; rebuild with platform_submission_v3/feature_imputation_upgrade.py)
+platform_submission_v3/feature_upgrade_model.pkl

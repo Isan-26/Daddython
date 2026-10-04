@@ -1,0 +1,5 @@
+column,masked_rows,point_reconstruction_rmse,empirical_90pct_interval_coverage,mean_interval_width,sampling_mean_max_abs_error,evaluation
+temperature,315,0.9463881371202401,0.8412698412698413,2.568910801964459,7.105427357601002e-15,auxiliary in-sample imputer diagnostic; self donor excluded; no energy RMSE
+humidity,314,4.5007727719340656,0.8471337579617835,13.009247732384773,1.4210854715202004e-14,auxiliary in-sample imputer diagnostic; self donor excluded; no energy RMSE
+occupancy,337,27.61271081083693,0.7329376854599406,52.88648797507717,5.684341886080802e-14,auxiliary in-sample imputer diagnostic; self donor excluded; no energy RMSE
+previous_usage,347,8.802441119854922,0.8530259365994236,23.442517150134503,1.4210854715202004e-14,auxiliary in-sample imputer diagnostic; self donor excluded; no energy RMSE
